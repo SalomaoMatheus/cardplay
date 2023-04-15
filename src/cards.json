@@ -1,6 +1,7 @@
 [
     {
       "id": 0,
+      "value": 0,
       "name_pt": "O Louco",
       "name_en": "The Fool",
       "path": "./cards/00-TheFool.png",
@@ -8,6 +9,7 @@
     },
     {
       "id": 1,
+      "value": 1,
       "name_pt": "A Mago",
       "name_en": "The Magician",
       "path": "./cards/01-TheMagician.png",
@@ -15,6 +17,7 @@
     },
     {
       "id": 2,
+      "value": 2,
       "name_pt": "A Sacerdotisa",
       "name_en": "The High Priestess",
       "path": "./cards/02-TheHighPriestess.png",
@@ -22,6 +25,7 @@
     },
     {
       "id": 3,
+      "value": 3,
       "name_pt": "A Imperatriz",
       "name_en": "The Empress",
       "path": "./cards/03-TheEmpress.png",
@@ -29,6 +33,7 @@
     },
     {
       "id": 4,
+      "value": 4,
       "name_pt": "O Imperador",
       "name_en": "The Emperor",
       "path": "./cards/04-TheEmperor.png",
@@ -36,6 +41,7 @@
     },
     {
       "id": 5,
+      "value": 5,
       "name_pt": "O Hierofante",
       "name_en": "The Hierophant",
       "path": "./cards/05-TheHierophant.png",
@@ -43,6 +49,7 @@
     },
     {
       "id": 6,
+      "value": 6,
       "name_pt": "Os Amantes",
       "name_en": "The Lovers",
       "path": "./cards/06-TheLovers.png",
@@ -50,6 +57,7 @@
     },
     {
       "id": 7,
+      "value": 7,
       "name_pt": "O Carro",
       "name_en": "The Chariot",
       "path": "./cards/07-TheChariot.png",
@@ -57,6 +65,7 @@
     },
     {
         "id": 8,
+        "value": 8,
         "name_pt": "A Força",
         "name_en": "Strength",
         "path": "./cards/08-Strength.png",
@@ -64,6 +73,7 @@
     },
     {
       "id": 9,
+      "value": 9,
       "name_pt": "O Eremita",
       "name_en": "The Hermit",
       "path": "./cards/09-TheHermit.png",
@@ -71,6 +81,7 @@
     },
     {
       "id": 10,
+      "value": 10,
       "name_pt": "A Roda da Fortuna",
       "name_en": "The Wheel of Fortune",
       "path": "./cards/10-WheelOfFortune.png",
@@ -78,6 +89,7 @@
     },
     {
         "id": 11,
+        "value": 11,
         "name_pt": "A Justiça",
         "name_en": "Justice",
         "path": "./cards/11-Justice.png",
@@ -85,6 +97,7 @@
     },
     {
       "id": 12,
+      "value": 12,
       "name_pt": "O Enforcado",
       "name_en": "The Hanged Man",
       "path": "./cards/12-TheHangedMan.png",
@@ -92,6 +105,7 @@
     },
     {
       "id": 13,
+      "value": 13,
       "name_pt": "A Morte",
       "name_en": "Death",
       "path": "./cards/13-Death.png",
@@ -99,6 +113,7 @@
     },
     {
       "id": 14,
+      "value": 14,
       "name_pt": "A Temperança",
       "name_en": "Temperance",
       "path": "./cards/14-Temperance.png",
@@ -106,6 +121,7 @@
     },
     {
       "id": 15,
+      "value": 15,
       "name_pt": "O Diabo",
       "name_en": "The Devil",
       "path": "./cards/15-TheDevil.png",
@@ -113,6 +129,7 @@
     },
     {
       "id": 16,
+      "value": 16,
       "name_pt": "A Torre",
         "name_en": "The Tower",
         "path": "./cards/16-TheTower.png",
@@ -120,6 +137,7 @@
     },
     {
       "id": 17,
+      "value": 17,
       "name_pt": "A Estrela",
       "name_en": "The Star",
       "path": "./cards/17-TheStar.png",
@@ -127,6 +145,7 @@
     },
     {
       "id": 18,
+      "value": 18,
       "name_pt": "A Lua",
       "name_en": "The Moon",
       "path": "./cards/18-TheMoon.png",
@@ -134,6 +153,7 @@
     },
     {
       "id": 19,
+      "value": 19,
       "name_pt": "O Sol",
       "name_en": "The Sun",
       "path": "./cards/19-TheSun.png",
@@ -141,6 +161,7 @@
     },
     {
       "id": 20,
+      "value": 20,
       "name_pt": "O Julgamento",
       "name_en": "Judgement",
       "path": "./cards/20-Judgement.png",
@@ -148,6 +169,7 @@
     },
     {
       "id": 21,
+      "value": 21,
       "name_pt": "O Mundo",
       "name_en": "The World",
       "path": "./cards/21-TheWorld.png",
@@ -155,6 +177,7 @@
     },
     {
         "id": 22,
+        "value": 1,
         "name_pt": "Um de Copas",
         "name_en": "Ace of Cups",
         "path": "./cards/Cups01.png",
@@ -162,6 +185,7 @@
     },
     {
         "id": 23,
+        "value": 2,
         "name_pt": "Dois de Copas",
         "name_en": "Two of Cups",
         "path": "./cards/Cups02.png",
@@ -169,6 +193,7 @@
     },
     {
         "id": 24,
+        "value": 3,
         "name_pt": "Três de Copas",
         "name_en": "Three of Cups",
         "path": "./cards/Cups03.png",
@@ -176,6 +201,7 @@
     },
     {
         "id": 25,
+        "value": 4,
         "name_pt": "Quatro de Copas",
         "name_en": "Four of Cups",
         "path": "./cards/Cups04.png",
@@ -183,6 +209,7 @@
     },
     {
         "id": 26,
+        "value": 5,
         "name_pt": "Cinco de Copas",
         "name_en": "Five of Cups",
         "path": "./cards/Cups05.png",
@@ -190,6 +217,7 @@
     },
     {
         "id": 27,
+        "value": 6,
         "name_pt": "Seis de Copas",
         "name_en": "Six of Cups",
         "path": "./cards/Cups06.png",
@@ -197,6 +225,7 @@
     },
     {
         "id": 28,
+        "value": 7,
         "name_pt": "Sete de Copas",
         "name_en": "Seven of Cups",
         "path": "./cards/Cups07.png",
@@ -204,6 +233,7 @@
     },
     {
         "id": 29,
+        "value": 8,
         "name_pt": "Oito de Copas",
         "name_en": "Eight of Cups",
         "path": "./cards/Cups08.png",
@@ -211,6 +241,7 @@
     },
     {
         "id": 30,
+        "value": 9,
         "name_pt": "Nove de Copas",
         "name_en": "Nine of Cups",
         "path": "./cards/Cups09.png",
@@ -218,6 +249,7 @@
     },
     {
         "id": 31,
+        "value": 10,
         "name_pt": "Dez de Copas",
         "name_en": "Ten of Cups",
         "path": "./cards/Cups10.png",
@@ -225,6 +257,7 @@
     },
     {
         "id": 32,
+        "value": 11,
         "name_pt": "Pagem de Copas",
         "name_en": "Page of Cups",
         "path": "./cards/Cups11.png",
@@ -232,6 +265,7 @@
     },
     {
         "id": 33,
+        "value": 12,
         "name_pt": "Cavaleiro de Copas",
         "name_en": "Knight of Cups",
         "path": "./cards/Cups12.png",
@@ -239,6 +273,7 @@
     },
     {
         "id": 34,
+        "value": 13,
         "name_pt": "Rainha de Copas",
         "name_en": "Queen of Cups",
         "path": "./cards/Cups13.png",
@@ -246,6 +281,7 @@
     },
     {
         "id": 35,
+        "value": 14,
         "name_pt": "Rei de Copas",
         "name_en": "King of Cups",
         "path": "./cards/Cups14.png",
@@ -253,6 +289,7 @@
     },
     {
         "id": 36,
+        "value": 1,
         "name_pt": "Um de Pentáculos",
         "name_en": "Ace of Pentacles",
         "path": "./cards/Pentacles01.png",
@@ -260,6 +297,7 @@
     },
     {
         "id": 37,
+        "value": 2,
         "name_pt": "Dois de Pentáculos",
         "name_en": "Two of Pentacles",
         "path": "./cards/Pentacles02.png",
@@ -267,6 +305,7 @@
     },
     {
         "id": 38,
+        "value": 3,
         "name_pt": "Três de Pentáculos",
         "name_en": "Three of Pentacles",
         "path": "./cards/Pentacles03.png",
@@ -274,6 +313,7 @@
     },
     {
         "id": 39,
+        "value": 4,
         "name_pt": "Quatro de Pentáculos",
         "name_en": "Four of Pentacles",
         "path": "./cards/Pentacles04.png",
@@ -281,6 +321,7 @@
     },
     {
         "id": 40,
+        "value": 5,
         "name_pt": "Cinco de Pentáculos",
         "name_en": "Five of Pentacles",
         "path": "./cards/Pentacles05.png",
@@ -288,6 +329,7 @@
     },
     {
         "id": 41,
+        "value": 6,
         "name_pt": "Seis de Pentáculos",
         "name_en": "Six of Pentacles",
         "path": "./cards/Pentacles06.png",
@@ -295,6 +337,7 @@
     },
     {
         "id": 42,
+        "value": 7,
         "name_pt": "Sete de Pentáculos",
         "name_en": "Seven of Pentacles",
         "path": "./cards/Pentacles07.png",
@@ -302,6 +345,7 @@
     },
     {
         "id": 43,
+        "value": 8,
         "name_pt": "Oito de Pentáculos",
         "name_en": "Eight of Pentacles",
         "path": "./cards/Pentacles08.png",
@@ -309,6 +353,7 @@
     },
     {
         "id": 44,
+        "value": 9,
         "name_pt": "Nove de Pentáculos",
         "name_en": "Nine of Pentacles",
         "path": "./cards/Pentacles09.png",
@@ -316,6 +361,7 @@
     },
     {
         "id": 45,
+        "value": 10,
         "name_pt": "Dez de Pentáculos",
         "name_en": "Ten of Pentacles",
         "path": "./cards/Pentacles10.png",
@@ -323,6 +369,7 @@
     },
     {
         "id": 46,
+        "value": 11,
         "name_pt": "Pagem de Pentáculos",
         "name_en": "Page of Pentacles",
         "path": "./cards/Pentacles11.png",
@@ -330,6 +377,7 @@
     },
     {
         "id": 47,
+        "value": 12,
         "name_pt": "Cavaleiro de Pentáculos",
         "name_en": "Knight of Pentacles",
         "path": "./cards/Pentacles12.png",
@@ -337,6 +385,7 @@
     },
     {
         "id": 48,
+        "value": 13,
         "name_pt": "Rainha de Pentáculos",
         "name_en": "Queen of Pentacles",
         "path": "./cards/Pentacles13.png",
@@ -344,6 +393,7 @@
     },
     {
         "id": 49,
+        "value": 14,
         "name_pt": "Rei de Pentáculos",
         "name_en": "King of Pentacles",
         "path": "./cards/Pentacles14.png",
@@ -351,6 +401,7 @@
     },
     {
         "id": 50,
+        "value": 1,
         "name_pt": "Um de Espadas",
         "name_en": "Ace of Swords",
         "path": "./cards/Swords01.png",
@@ -358,6 +409,7 @@
     },
     {
         "id": 51,
+        "value": 2,
         "name_pt": "Dois de Espadas",
         "name_en": "Two of Swords",
         "path": "./cards/Swords02.png",
@@ -365,6 +417,7 @@
     },
     {
         "id": 52,
+        "value": 3,
         "name_pt": "Três de Espadas",
         "name_en": "Three of Swords",
         "path": "./cards/Swords03.png",
@@ -372,6 +425,7 @@
     },
     {
         "id": 53,
+        "value": 4,
         "name_pt": "Quatro de Espadas",
         "name_en": "Four of Swords",
         "path": "./cards/Swords04.png",
@@ -379,6 +433,7 @@
     },
     {
         "id": 54,
+        "value": 5,
         "name_pt": "Cinco de Espadas",
         "name_en": "Five of Swords",
         "path": "./cards/Swords05.png",
@@ -386,6 +441,7 @@
     },
     {
         "id": 55,
+        "value": 6,
         "name_pt": "Seis de Espadas",
         "name_en": "Six of Swords",
         "path": "./cards/Swords06.png",
@@ -393,6 +449,7 @@
     },
     {
         "id": 56,
+        "value": 7,
         "name_pt": "Sete de Espadas",
         "name_en": "Seven of Swords",
         "path": "./cards/Swords07.png",
@@ -400,6 +457,7 @@
     },
     {
         "id": 57,
+        "value": 8,
         "name_pt": "Oito de Espadas",
         "name_en": "Eight of Swords",
         "path": "./cards/Swords08.png",
@@ -407,6 +465,7 @@
     },
     {
         "id": 58,
+        "value": 9,
         "name_pt": "Nove de Espadas",
         "name_en": "Nine of Swords",
         "path": "./cards/Swords09.png",
@@ -414,6 +473,7 @@
     },
     {
         "id": 59,
+        "value": 10,
         "name_pt": "Dez de Espadas",
         "name_en": "Ten of Swords",
         "path": "./cards/Swords10.png",
@@ -421,6 +481,7 @@
     },
     {
         "id": 60,
+        "value": 11,
         "name_pt": "Pagem de Espadas",
         "name_en": "Page of Swords",
         "path": "./cards/Swords11.png",
@@ -428,6 +489,7 @@
     },
     {
         "id": 61,
+        "value": 12,
         "name_pt": "Cavaleiro de Espadas",
         "name_en": "Knight of Swords",
         "path": "./cards/Swords12.png",
@@ -435,6 +497,7 @@
     },
     {
         "id": 62,
+        "value": 13,
         "name_pt": "Rainha de Espadas",
         "name_en": "Queen of Swords",
         "path": "./cards/Swords13.png",
@@ -442,6 +505,7 @@
     },
     {
         "id": 63,
+        "value": 14,
         "name_pt": "Rei de Espadas",
         "name_en": "King of Swords",
         "path": "./cards/Swords14.png",
@@ -449,6 +513,7 @@
     },
     {
         "id": 64,
+        "value": 1,
         "name_pt": "Um de Paus",
         "name_en": "Ace of Wands",
         "path": "./cards/Wands01.png",
@@ -456,6 +521,7 @@
     },
     {
         "id": 65,
+        "value": 2,
         "name_pt": "Dois de Paus",
         "name_en": "Two of Wands",
         "path": "./cards/Wands02.png",
@@ -463,6 +529,7 @@
     },
     {
         "id": 66,
+        "value": 3,
         "name_pt": "Três de Paus",
         "name_en": "Three of Wands",
         "path": "./cards/Wands03.png",
@@ -470,6 +537,7 @@
     },
     {
         "id": 67,
+        "value": 4,
         "name_pt": "Quatro de Paus",
         "name_en": "Four of Wands",
         "path": "./cards/Wands04.png",
@@ -477,6 +545,7 @@
     },
     {
         "id": 68,
+        "value": 5,
         "name_pt": "Cinco de Paus",
         "name_en": "Five of Wands",
         "path": "./cards/Wands05.png",
@@ -484,6 +553,7 @@
     },
     {
         "id": 69,
+        "value": 6,
         "name_pt": "Seis de Paus",
         "name_en": "Six of Wands",
         "path": "./cards/Wands06.png",
@@ -491,6 +561,7 @@
     },
     {
         "id": 70,
+        "value": 7,
         "name_pt": "Sete de Paus",
         "name_en": "Seven of Wands",
         "path": "./cards/Wands07.png",
@@ -498,6 +569,7 @@
     },
     {
         "id": 71,
+        "value": 8,
         "name_pt": "Oito de Paus",
         "name_en": "Eight of Wands",
         "path": "./cards/Wands08.png",
@@ -505,6 +577,7 @@
     },
     {
         "id": 72,
+        "value": 9,
         "name_pt": "Nove de Paus",
         "name_en": "Nine of Wands",
         "path": "./cards/Wands09.png",
@@ -512,6 +585,7 @@
     },
     {
         "id": 73,
+        "value": 10,
         "name_pt": "Dez de Paus",
         "name_en": "Ten of Wands",
         "path": "./cards/Wands10.png",
@@ -519,6 +593,7 @@
     },
     {
         "id": 74,
+        "value": 11,
         "name_pt": "Pagem de Paus",
         "name_en": "Page of Wands",
         "path": "./cards/Wands11.png",
@@ -526,6 +601,7 @@
     },
     {
         "id": 75,
+        "value": 12,
         "name_pt": "Cavaleiro de Paus",
         "name_en": "Knight of Wands",
         "path": "./cards/Wands12.png",
@@ -533,6 +609,7 @@
     },
     {
         "id": 76,
+        "value": 13,
         "name_pt": "Rainha de Paus",
         "name_en": "Queen of Wands",
         "path": "./cards/Wands13.png",
@@ -540,6 +617,7 @@
     },
     {
         "id": 77,
+        "value": 14,
         "name_pt": "Rei de Paus",
         "name_en": "King of Wands",
         "path": "./cards/Wands14.png",
@@ -547,6 +625,7 @@
     },
     {
         "id": 777,
+        "value": 777,
         "name_pt": "Costas da Carta",
         "name_en": "Card Back",
         "path": "./cards/CardBacks.png",
