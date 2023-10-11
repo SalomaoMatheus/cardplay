@@ -1,7 +1,7 @@
 import { Graphics, Sprite, Text, TextStyle } from 'pixi.js';
 
-const cardWidth = 150;
-const cardHeight = 263.5;
+const cardWidth = 150 / 2;
+const cardHeight = 263.5 / 2;
 const cardFillColor = 0x444444;
 const cardLineColor = 0x0000FF;
 const cardLineWidth = 2;
@@ -38,31 +38,31 @@ function createDeckSprite (deckTexture: string) {
     return Card;
   }
   
-  function createNumberText (Card: Sprite | Graphics, cardNumber: number) {
+  function createNumberText (cardNumber: number) {
     const textStyle = new TextStyle({
       fontFamily: 'Cinzel Decorative',
-      fontSize: 30,
+      fontSize: 180,
       fill: '#ffffff',
       stroke: '#000000',
-      strokeThickness: 3,
+      strokeThickness: 14,
     });
     const numberText = new Text(cardNumber.toString(), textStyle);
     numberText.anchor.set(0.5); // Definir o ponto de ancoragem no centro do texto
-    numberText.position.set(Card.x + cardWidth / 2, Card.y + 12); // Posicionar o texto no canto superior esquerdo do card
+    numberText.position.set(cardWidth * 2, -70); // Posicionar o texto no canto superior esquerdo do card
     return numberText;
   }
   
-  function createNameText (Card: Sprite | Graphics, cardName: string) {
+  function createNameText (cardName: string) {
     const textStyle = new TextStyle({
       fontFamily: 'Cinzel Decorative',
-      fontSize: 16,
+      fontSize: 60,
       fill: '#ffffff',
       stroke: '#000000',
-      strokeThickness: 5,
+      strokeThickness: 10,
     });
     const nameText = new Text(cardName, textStyle);
     nameText.anchor.set(0.5); // Definir o ponto de ancoragem no canto inferior esquerdo do texto
-    nameText.position.set(Card.x + cardWidth / 2, (Card.y + cardHeight) - 12); // Posicionar o texto no canto inferior esquerdo do card
+    nameText.position.set(cardWidth * 2, cardHeight * 4 + 40); // Posicionar o texto no canto inferior esquerdo do card
     return nameText;
   }
 

@@ -1,9 +1,7 @@
-import { Application, Container, Text, BitmapFont } from 'pixi.js';
-// import sprites creation functions
+import { Application, Loader, BitmapFont, Sprite, Graphics } from 'pixi.js';
 import { createDeckSprite, createCardSprite, createNumberText, createNameText } from './pixiObjs';
-// import cards json
 import cardsJson from './cards.json';
-// create interface for cards
+
 interface Card {
   id: number;
   value: number;
@@ -11,77 +9,108 @@ interface Card {
   name_en: string;
   path: string;
 }
-// convert json to array of cards
+
+type EventMode = 'static' | 'dynamic' | 'none'; // ou quaisquer outras strings que você queira usar.
+
+declare module 'pixi.js' {
+  interface Container {
+    eventMode: EventMode;
+  }
+}
+
+let isDragging = false;
+const randomDeckCardsNumbersArray = Array.from({length: 78}, (_, i) => i).sort(() => Math.random() - 0.5);
 const cards: Card[] = cardsJson;
-// create app instance
+
 const app = new Application({
 	view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
 	resolution: window.devicePixelRatio || 1,
 	autoDensity: true,
-  width: window.innerWidth,
-  height: window.innerHeight,
+	width: window.innerWidth,
+	height: window.innerHeight,
 	backgroundColor: 0xAAAAAA,
 });
-// load font
+
 BitmapFont.from('Cinzel Decorative', { fontFamily: 'Cinzel Decorative' });
-// Criar objeto retangular (card)
-const cardWidth = 150;
-const cardHeight = 263.5;
 
-// generate a array of numbers in random positions from 0 to 77
-const randomDeckCardsNumbersArray = Array.from({length: 78}, (_, i) => i).sort(() => Math.random() - 0.5);
-
-
-// deck drawing
-function createDeck () {
-  // find the path in the cards that matches the number 777
-  const deckTexture = cards.find((card: Card) => card.id === 777)!.path;
-  const Deck = createDeckSprite(deckTexture);
+function createDeck() {
+  const backTexture = cards.find((card: Card) => card.id === 777)?.path;
+  if (!backTexture) return;
+  const Deck = createDeckSprite(backTexture);
+  Deck.interactive = true;
+  Deck.on('pointerdown', () => drawFromDeck());
   app.stage.addChild(Deck);
-  Deck.eventMode = 'dynamic';
-  Deck.on('pointerdown', () => createNewCard());
 }
 
 function createNewCard() {
-  // remove the first number of the array and return it
-  let cardNumber = randomDeckCardsNumbersArray.shift() as number;
-  if (cardNumber == undefined || cardNumber == null) cardNumber = 777;
+  const backTexture = cards.find((card: Card) => card.id === 777)?.path;
+  if (!backTexture) return;
+  
+  let cardNumber = randomDeckCardsNumbersArray.shift();
+
   const cardData = cards.find((card: Card) => card.id === cardNumber);
-  const Card = createCardSprite(cardData!.path);
-  const Name = createNameText(Card, cardData!.name_pt);
-  const Number = createNumberText(Card, cardData!.value);
+  if (!cardData) return; // handle null or undefined card data
+
+  const Card = createCardSprite(cardData.path);
+  const Name = createNameText(cardData.name_pt);
+  const Number = createNumberText(cardData.value);
+
+  Card.addChild(Name); 
+  Card.addChild(Number);
+
+  // Inicial configurações de drag and drop
+  Card.interactive = true;
+
+  Card.on("pointerdown", (e) => onDragStart(e, Card))
+        .on("pointerup", onDragEnd)
+        .on("pointerupoutside", onDragEnd)
+        .on("pointermove", (e) => onDragMove(e, Card));
+
   app.stage.addChild(Card);
-  app.stage.addChild(Name);
-  app.stage.addChild(Number);
-  createDragAndDropFor(Card, Number, Name);
+  return Card;
 }
 
-createDeck();
-createNewCard();
+setup();
 
-let drag: Container | false = false;
-function createDragAndDropFor(target: Container, numberInCard: Text, nameInCard: Text): void {
-  target.eventMode = 'dynamic';
-  target.on("pointerdown", () => {
-    drag = target;
-    app.stage.removeChild(target);
-    app.stage.removeChild(numberInCard);
-    app.stage.removeChild(nameInCard);
-    app.stage.addChild(target);
-    app.stage.addChild(numberInCard);
-    app.stage.addChild(nameInCard);
+function setup() {
+  createDeck();
+  createNewCard();
+  // Usar o sistema de ticker para atualizações em tempo real
+  app.ticker.add((delta) => {
+      update(delta);
   });
-  target.on("pointerup", () => drag = false);
-  target.on("pointerupoutside", () => drag = false);
-  target.on("pointermove", (e: any) => {
-    if (drag) {
-      const maxX = app.view.width - drag.width; // Limite máximo da posição X
-      const maxY = app.view.height - drag.height; // Limite máximo da posição Y
-      // Atualizar a posição do "card" mantendo-o dentro dos limites da tela
-      drag.position.x = Math.min(Math.max(0, drag.position.x + e.data.originalEvent.movementX), maxX);
-      drag.position.y = Math.min(Math.max(0, drag.position.y + e.data.originalEvent.movementY), maxY);
-      numberInCard.position.set(drag.x + cardWidth / 2, drag.y + 12);
-      nameInCard.position.set(drag.x + cardWidth / 2, (drag.y + cardHeight) - 12);
-    }
-  });
+}
+
+function turnCardUp (card: Sprite | Graphics) {
+
+}
+
+function drawFromDeck () {
+  createNewCard();
+}
+
+let offsetX = 0;
+let offsetY = 0;
+
+function onDragStart(event: any, card: Sprite | Graphics) {
+  isDragging = true;
+
+  // Armazenar o deslocamento entre o ponteiro e a posição do sprite
+  offsetX = card.x - event.data.global.x;
+  offsetY = card.y - event.data.global.y;
+}
+
+function onDragEnd() {
+  isDragging = false;
+}
+
+function onDragMove(event: any, card: Sprite | Graphics) {
+  if (isDragging) {
+      card.x = event.data.global.x + offsetX;
+      card.y = event.data.global.y + offsetY;
+  }
+}
+
+function update(delta: number) {
+  // Aqui você pode adicionar qualquer lógica que precise ser atualizada em cada frame
 }
