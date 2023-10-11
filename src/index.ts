@@ -8,6 +8,7 @@ interface Card {
   name_pt: string;
   name_en: string;
   path: string;
+  type: string;
 }
 
 type EventMode = 'static' | 'dynamic' | 'none'; // ou quaisquer outras strings que você queira usar.
@@ -38,7 +39,7 @@ function createDeck() {
   if (!backTexture) return;
   const Deck = createDeckSprite(backTexture);
   Deck.interactive = true;
-  Deck.on('pointerdown', () => drawFromDeck());
+  Deck.on('pointerdown', () => drawFromDeck(Deck));
   app.stage.addChild(Deck);
 }
 
@@ -53,10 +54,8 @@ function createNewCard() {
 
   const Card = createCardSprite(cardData.path);
   const Name = createNameText(cardData.name_pt);
-  const Number = createNumberText(cardData.value);
 
   Card.addChild(Name); 
-  Card.addChild(Number);
 
   // Inicial configurações de drag and drop
   Card.interactive = true;
@@ -85,8 +84,11 @@ function turnCardUp (card: Sprite | Graphics) {
 
 }
 
-function drawFromDeck () {
-  createNewCard();
+function drawFromDeck (deck: any) {
+  const nCard = createNewCard();
+  if (!nCard) {
+    app.stage.removeChild(deck);
+  }
 }
 
 let offsetX = 0;

@@ -45,6 +45,10 @@ function createDeckSprite (deckTexture: string) {
       fill: '#ffffff',
       stroke: '#000000',
       strokeThickness: 14,
+      dropShadow: true,
+      dropShadowBlur: 4,
+      dropShadowDistance: 0,
+      dropShadowColor: '#000' 
     });
     const numberText = new Text(cardNumber.toString(), textStyle);
     numberText.anchor.set(0.5); // Definir o ponto de ancoragem no centro do texto
