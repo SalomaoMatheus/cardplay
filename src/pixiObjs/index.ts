@@ -59,10 +59,14 @@ function createDeckSprite (deckTexture: string) {
   function createNameText (cardName: string) {
     const textStyle = new TextStyle({
       fontFamily: 'Cinzel Decorative',
-      fontSize: 60,
+      fontSize: 64,
       fill: '#ffffff',
       stroke: '#000000',
-      strokeThickness: 10,
+      strokeThickness: 4,
+      dropShadow: true,
+      dropShadowBlur: 4,
+      dropShadowDistance: 0,
+      dropShadowColor: '#000'
     });
     const nameText = new Text(cardName, textStyle);
     nameText.anchor.set(0.5); // Definir o ponto de ancoragem no canto inferior esquerdo do texto
