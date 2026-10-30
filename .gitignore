@@ -2,4 +2,5 @@
 .cache
 dist
 node_modules
-static/cards
+*/static/cards
+*:Zone.Identifier

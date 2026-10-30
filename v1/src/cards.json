@@ -10,7 +10,7 @@
     {
       "id": 1,
       "value": 1,
-      "name_pt": "A Mago",
+      "name_pt": "O Mago",
       "name_en": "The Magician",
       "path": "./cards/01-TheMagician.png",
       "type": "major"
@@ -629,6 +629,6 @@
         "name_pt": "Costas da Carta",
         "name_en": "Card Back",
         "path": "./cards/CardBacks.png",
-        "type": "minor"
+        "type": "back"
     }
 ]
