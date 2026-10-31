@@ -32,7 +32,7 @@ module.exports = (env, argv) => VERSIONS.map((version, i) => ({
                 },
                 progress: true,
             },
-            port: 1234, host: '0.0.0.0',
+            port: 1235, host: '0.0.0.0',
             // "/" opens the latest version
             setupMiddlewares: (middlewares) => {
                 middlewares.unshift({ path: '/', middleware: (req, res, next) => {
