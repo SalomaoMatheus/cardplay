@@ -2,6 +2,7 @@ import { Application, BlurFilter, Container, FederatedPointerEvent, Graphics, Te
 import { cardWidth, cardHeight, createCardFace, createDeckSprite, createCardSprite, createCardShadow, createSigil, drawTable, createNameText, createDeckCountText, createSlotLabel } from './pixiObjs';
 import { tween, wait, summonEffect, landEffect, easeInOutCubic, easeOutCubic, lerp } from './effects';
 import { openCardDrawer } from './drawer';
+import { beginReading, endReading, recordCard } from './history';
 import cardsJson from './cards.json';
 
 interface Card {
@@ -80,12 +81,13 @@ let tableHeight = 0;
 const toolbar = document.getElementById('toolbar') as HTMLElement;
 const spreadButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-spread]'));
 const resetButton = document.getElementById('reset') as HTMLButtonElement;
+const cornerButtons = document.getElementById('corner') as HTMLElement;
 
 function layoutTable() {
   const margin = window.innerWidth < MOBILE_BREAKPOINT ? TABLE_MARGIN_MOBILE : TABLE_MARGIN;
 
-  // A mesa fica abaixo da barra de tiragens e do botão de reset
-  const top = Math.max(toolbar.offsetHeight, resetButton.offsetTop + resetButton.offsetHeight + 8, margin);
+  // A mesa fica abaixo da barra de tiragens e dos botões do canto (histórico e reset)
+  const top = Math.max(toolbar.offsetHeight, cornerButtons.offsetTop + cornerButtons.offsetHeight + 8, margin);
   const availableWidth = window.innerWidth - margin * 2;
   const availableHeight = window.innerHeight - top - margin;
 
@@ -148,9 +150,14 @@ interface TableCard {
   name: Text | null;
   revealed: boolean;
   moving: boolean;
+  position: number; // ordem na leitura, para o histórico
+  label?: string;
 }
 
 let tableCards: TableCard[] = [];
+
+// Quantas cartas a leitura em andamento já tirou do deck; null quando a mesa está vazia
+let readingSize: number | null = null;
 
 let deck: Container | null = null;
 let deckAura: Graphics | null = null;
@@ -286,10 +293,10 @@ async function flyCard (tableCard: TableCard, to: { x: number, y: number }, dura
 }
 
 // Tira a carta do deck, voa virada para baixo até `to` e fica esperando o clique para revelar
-async function dealCard (data: Card, to: { x: number, y: number }) {
+async function dealCard (data: Card, to: { x: number, y: number }, position: number, label?: string) {
   const { card, flipper, front, back } = createCardSprite(data.path, backTexture);
   card.position.set(deckPosition.x, deckPosition.y);
-  const tableCard: TableCard = { data, card, flipper, front, back, name: null, revealed: false, moving: false };
+  const tableCard: TableCard = { data, card, flipper, front, back, name: null, revealed: false, moving: false, position, label };
   card.on('pointerdown', (e: FederatedPointerEvent) => onDragStart(e, tableCard));
   tableCards.push(tableCard);
   refreshControls();
@@ -328,6 +335,7 @@ async function revealCard (tableCard: TableCard) {
   tableCard.revealed = true;
   tableCard.moving = false;
   card.cursor = 'grab';
+  recordCard(data.id, tableCard.position, tableCard.label);
 
   summonEffect(app.ticker, effectsBelow, effectsAbove, card.x, card.y);
 
@@ -342,7 +350,12 @@ async function revealCard (tableCard: TableCard) {
 async function drawFromDeck () {
   const data = takeFromDeck();
   if (!data) return;
-  await dealCard(data, pickLandingSpot());
+  // Carta avulsa com a mesa vazia abre uma tiragem livre; com uma tiragem na mesa, entra nela
+  if (readingSize === null) {
+    beginReading('free');
+    readingSize = 0;
+  }
+  await dealCard(data, pickLandingSpot(), readingSize++);
 }
 
 // Embaralhar: o maço se divide em dois, a metade de cima vai para o lado e as cartas
@@ -404,6 +417,8 @@ async function shuffleDeckAnimation () {
 // Todas as cartas da mesa voltam para o deck, que é embaralhado de novo
 async function returnAllToDeck () {
   clearSlotLabels();
+  endReading();
+  readingSize = null;
   if (tableCards.length === 0) return;
 
   if (deck) deck.visible = true;
@@ -497,12 +512,14 @@ async function runSpread (name: string) {
   await shuffleDeckAnimation();
 
   const slots = spreads[name]();
+  beginReading(name);
+  readingSize = slots.length;
   await Promise.all(slots.map(async (slot, i) => {
     const data = takeFromDeck(slot.filter);
     if (!data) return;
     await wait(app.ticker, i * DEAL_STAGGER);
     showSlotLabel(slot);
-    await dealCard(data, slot);
+    await dealCard(data, slot, i, slot.label);
   }));
 }
 
