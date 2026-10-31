@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: cardplay
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${APP_PORT:-8020}:80"
