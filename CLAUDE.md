@@ -5,8 +5,15 @@ App de tarot em PixiJS 7 + TypeScript, empacotado com webpack. Duas versões lad
 
 ## Servidor de desenvolvimento
 
-- Comando: `cd /home/ars/dev/cardplay && exec node node_modules/webpack-cli/bin/cli.js serve --mode=development`
-  → `http://localhost:1235` (porta em `webpack.config.js`; a 1234 é do container de produção).
+- `http://localhost:1235` (porta em `webpack.config.js`; a 1234 é do container de produção).
+- Suba, teste e desligue **no mesmo comando**; em tarefa de background o servidor é encerrado
+  pelo limite de tempo antes do teste terminar:
+  ```sh
+  node node_modules/webpack-cli/bin/cli.js serve --mode=development > "$LOG" 2>&1 & S=$!
+  for i in $(seq 1 60); do [ $(grep -c compiled "$LOG") -ge 2 ] && break; sleep 2; done  # v1 e v2
+  <teste>; R=$?
+  kill $S; wait $S 2>/dev/null; exit $R
+  ```
 - Navegador de teste: imagem `mcr.microsoft.com/playwright:v1.48.0-jammy` com
   `--network container:$(hostname)`, para enxergar o `localhost:1235` do ambiente do Claude.
   Os scripts precisam ficar numa pasta que o daemon do Docker enxerga (ex.: o workspace da tarefa), não em `/tmp`.
