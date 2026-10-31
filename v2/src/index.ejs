@@ -51,8 +51,9 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
-			gap: 12px;
-			padding: 14px 120px 10px;
+			gap: 10px;
+			/* Espaço lateral para os três botões redondos do canto */
+			padding: 14px 160px 10px;
 			pointer-events: none;
 		}
 
@@ -60,14 +61,14 @@
 			pointer-events: auto;
 			font-family: 'Cinzel', Georgia, serif;
 			font-weight: 700;
-			font-size: 12px;
-			letter-spacing: 1.5px;
+			font-size: 11px;
+			letter-spacing: 1.2px;
 			text-transform: uppercase;
 			color: #e9dcff;
 			background: linear-gradient(#170b27, #0b0612);
 			border: 1px solid #7a3fc0;
 			border-radius: 6px;
-			padding: 9px 14px;
+			padding: 9px 12px;
 			box-shadow: 0 0 10px rgba(155, 93, 229, 0.25), inset 0 0 0 3px #0b0612, inset 0 0 0 4px rgba(122, 63, 192, 0.45);
 			cursor: pointer;
 			transition: box-shadow 0.2s, color 0.2s, opacity 0.2s;
@@ -81,8 +82,8 @@
 			vertical-align: 2px;
 		}
 
-		.btn::before { margin-right: 8px; }
-		.btn::after { margin-left: 8px; }
+		.btn::before { margin-right: 6px; }
+		.btn::after { margin-left: 6px; }
 
 		.btn:hover:not(:disabled) {
 			color: #ffffff;
@@ -94,7 +95,7 @@
 			cursor: default;
 		}
 
-		/* Botões redondos no canto: histórico e reset */
+		/* Botões redondos no canto: cartas, histórico e reset */
 		#corner {
 			position: fixed;
 			top: 12px;
@@ -390,6 +391,119 @@
 		#history-clear.armed::before,
 		#history-clear.armed::after { color: #ff8fb0; }
 
+		/* Catálogo de cartas: busca, filtros e grade */
+		#catalog-title {
+			margin: 0 40px 14px 0;
+			font: 700 24px/1.2 'Cinzel', Georgia, serif;
+			color: #f3eaff;
+		}
+
+		#catalog-search {
+			width: 100%;
+			box-sizing: border-box;
+			padding: 10px 14px;
+			font: 16px Georgia, serif; /* 16px: o iOS não dá zoom ao focar */
+			color: #f3eaff;
+			background: #0b0612;
+			border: 1px solid #5b2a86;
+			border-radius: 8px;
+			outline: none;
+		}
+
+		#catalog-search::placeholder { color: #8a76a8; }
+		#catalog-search:focus { border-color: #b98cff; box-shadow: 0 0 0 3px rgba(155, 93, 229, 0.25); }
+
+		.catalog-filter {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 6px;
+			margin-top: 10px;
+		}
+
+		.catalog-filter[hidden] { display: none; }
+
+		.chip {
+			font: 600 12px Georgia, serif;
+			padding: 5px 12px;
+			border: 1px solid #5b2a86;
+			border-radius: 999px;
+			background: #170b27;
+			color: #d9c2ff;
+			cursor: pointer;
+		}
+
+		.chip:hover { border-color: #9b5de5; }
+
+		.chip[aria-pressed="true"] {
+			background: #5b2a86;
+			border-color: #b98cff;
+			color: #ffffff;
+		}
+
+		#catalog-count {
+			margin: 14px 0 10px;
+			font: 700 11px 'Cinzel', Georgia, serif;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: #9d8bb8;
+		}
+
+		#catalog-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+			gap: 14px 10px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		#catalog-grid li[hidden] { display: none; }
+
+		.catalog-card {
+			width: 100%;
+			padding: 0;
+			border: none;
+			background: none;
+			color: inherit;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		.catalog-card img {
+			display: block;
+			width: 100%;
+			aspect-ratio: 150 / 263.5;
+			object-fit: cover;
+			border-radius: 5px;
+			border: 1.5px solid #7a3fc0;
+			background: #1a1025;
+			transition: box-shadow 0.2s, border-color 0.2s;
+		}
+
+		.catalog-card:hover img,
+		.catalog-card:focus-visible img {
+			border-color: #d9c2ff;
+			box-shadow: 0 0 14px rgba(185, 140, 255, 0.55);
+		}
+
+		.catalog-card:focus-visible { outline: none; }
+
+		.catalog-card-name {
+			display: block;
+			margin-top: 6px;
+			font: 12px/1.3 Georgia, serif;
+			color: #e6dcf5;
+		}
+
+		#catalog-empty {
+			margin: 24px 0;
+			font: 15px Georgia, serif;
+			color: #9d8bb8;
+			text-align: center;
+		}
+
+		#catalog-empty[hidden] { display: none; }
+
 		/* Celular: botões em grade 2x2 compacta, reset no canto */
 		@media (max-width: 639px) {
 			#toolbar {
@@ -438,11 +552,14 @@
 
 			#drawer-image { width: 72px; }
 			#drawer-title,
-			#history-title { font-size: 20px; }
+			#history-title,
+			#catalog-title { font-size: 20px; }
+
+			#catalog-grid { grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); }
 
 			.history-card { width: 76px; }
 
-			/* Histórico embaixo do reset, ao lado das duas linhas de botões */
+			/* Histórico e cartas embaixo do reset, ao lado das duas linhas de botões */
 			#corner {
 				top: max(8px, env(safe-area-inset-top));
 				right: 10px;
@@ -462,7 +579,7 @@
 				display: flex;
 				flex-wrap: nowrap;
 				gap: 6px;
-				padding: 6px 92px 4px 10px;
+				padding: 6px 128px 4px 10px;
 			}
 
 			.btn {
@@ -510,6 +627,27 @@
 		<p id="history-empty">Nenhuma tiragem ainda. As cartas reveladas aparecem aqui.</p>
 		<button class="btn" id="history-clear" hidden>Apagar histórico</button>
 	</aside>
+	<div class="drawer-backdrop" id="catalog-backdrop"></div>
+	<aside class="drawer" id="catalog" role="dialog" aria-modal="true" aria-labelledby="catalog-title" aria-hidden="true">
+		<button class="btn drawer-close" id="catalog-close" aria-label="Fechar">✕</button>
+		<h2 id="catalog-title">Cartas</h2>
+		<input id="catalog-search" type="search" placeholder="Buscar por nome ou palavra-chave" autocomplete="off" aria-label="Buscar cartas">
+		<div class="catalog-filter" id="catalog-arcana" role="group" aria-label="Arcano">
+			<button class="chip" type="button" data-value="all" aria-pressed="true">Todas</button>
+			<button class="chip" type="button" data-value="major" aria-pressed="false">Arcanos Maiores</button>
+			<button class="chip" type="button" data-value="minor" aria-pressed="false">Arcanos Menores</button>
+		</div>
+		<div class="catalog-filter" id="catalog-suits" role="group" aria-label="Naipe">
+			<button class="chip" type="button" data-value="all" aria-pressed="true">Todos os naipes</button>
+			<button class="chip" type="button" data-value="Copas" aria-pressed="false">Copas</button>
+			<button class="chip" type="button" data-value="Pentáculos" aria-pressed="false">Pentáculos</button>
+			<button class="chip" type="button" data-value="Espadas" aria-pressed="false">Espadas</button>
+			<button class="chip" type="button" data-value="Paus" aria-pressed="false">Paus</button>
+		</div>
+		<p id="catalog-count"></p>
+		<ul id="catalog-grid"></ul>
+		<p id="catalog-empty" hidden>Nenhuma carta encontrada.</p>
+	</aside>
 	<div class="drawer-backdrop" id="drawer-backdrop"></div>
 	<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true">
 		<button class="btn drawer-close" id="drawer-close" aria-label="Fechar">✕</button>
@@ -525,6 +663,14 @@
 		<a id="drawer-source" target="_blank" rel="noopener noreferrer">Fonte: Wiki Del Debbio ↗</a>
 	</aside>
 	<div id="corner">
+		<button class="btn round" id="catalog-button" title="Todas as cartas e seus significados" aria-label="Cartas">
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<rect x="3" y="3" width="7" height="9" rx="1" />
+				<rect x="14" y="3" width="7" height="9" rx="1" />
+				<rect x="3" y="15" width="7" height="6" rx="1" />
+				<rect x="14" y="15" width="7" height="6" rx="1" />
+			</svg>
+		</button>
 		<button class="btn round" id="history-button" title="Histórico de tiragens" aria-label="Histórico">
 			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 				<path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z" />

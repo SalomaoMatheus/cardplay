@@ -3,6 +3,7 @@ import { cardWidth, cardHeight, createCardFace, createDeckSprite, createCardSpri
 import { tween, wait, summonEffect, landEffect, easeInOutCubic, easeOutCubic, lerp } from './effects';
 import { openCardDrawer } from './drawer';
 import { beginReading, endReading, recordCard } from './history';
+import './catalog';
 import cardsJson from './cards.json';
 
 interface Card {
