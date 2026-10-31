@@ -30,7 +30,6 @@ jobs:
       - run: npm run build
       # "/" abre a versão mais recente (equivalente ao redirect do nginx.conf)
       - run: echo '<meta http-equiv="refresh" content="0; url=v2/">' > dist/index.html
-      - run: echo 'cardplay.matheussalomao.dev.br' > dist/CNAME
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
