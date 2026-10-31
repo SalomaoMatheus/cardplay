@@ -14,7 +14,7 @@ module.exports = (env, argv) => VERSIONS.map((version, i) => ({
         // Your build destination
         output: {
             path: path.resolve(__dirname, 'dist', version),
-            publicPath: `/${version}/`,
+            publicPath: 'auto', // relativo ao script: funciona na raiz (nginx) e em subcaminho (GitHub Pages)
             filename: 'bundle.js'
         },
 
