@@ -1,0 +1,1783 @@
+[
+  {
+    "id": 0,
+    "nome_site": "O Louco",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Louco_(Tarot)",
+    "palavras_chave": [
+      "Busca",
+      "Desapego",
+      "Impulso",
+      "Inocência",
+      "Irresponsabilidade",
+      "Passividade",
+      "Abandono",
+      "Espontaneidade"
+    ],
+    "resumo": "Arcano Zero: um jovem despreocupado caminha tocando flauta rumo a um precipício, com uma trouxa nas costas, distraído por uma borboleta enquanto um cão tenta alertá-lo. A carta fala de busca, desapego e impulso, de inquietação diante do que está estagnado e de curiosidade pelo novo.",
+    "sentido_direto": "O conselho é seguir a espontaneidade e aceitar-se como aprendiz da vida, deixando de resistir. No plano mental indica indecisão causada por muitas preocupações e conselhos incertos; no emocional, reveses sentimentais, incerteza diante de compromissos e infidelidade; no físico, inconsciência, desordem, insegurança e palavra não cumprida.",
+    "sentido_invertido": "Complicações, atoleiro, incoerência e nulidade, acompanhados de remorsos inúteis.",
+    "correspondencias": [
+      "Letra hebraica: Aleph",
+      "Variantes: alguns tarôs o numeram como XXII e o associam a Tav ou Shin"
+    ]
+  },
+  {
+    "id": 1,
+    "nome_site": "O Mago",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Mago_(Tarot)",
+    "palavras_chave": [
+      "Início",
+      "Poder mental",
+      "Concentração",
+      "Espontaneidade",
+      "Ousadia",
+      "Criatividade",
+      "Habilidade",
+      "Poder criador"
+    ],
+    "resumo": "Primeiro Arcano Maior, mostra um jovem com o símbolo do infinito sobre a cabeça e uma mesa com taça, punhal, pergaminho e moeda. Com o bastão erguido e a outra mão voltada para baixo, capta a energia superior e a traz ao mundo material, sendo o elo entre o divino e o terreno; marca o início da caminhada espiritual, embora ainda seja um aprendiz.",
+    "sentido_direto": "Indica poder mental, concentração sem esforço, espontaneidade e a necessidade de agir com ousadia. No plano mental, facilidade para combinar ideias e apropriar-se de temas com inteligência; no emocional, busca de sensações e criatividade, com generosidade e cortesia; no físico, boa vitalidade e influência favorável em questões nervosas ou mentais, sem garantia de cura.",
+    "sentido_invertido": "O charlatão persuasivo e ilusionista: engano, mau uso do poder, dispersão, indecisão e incerteza.",
+    "correspondencias": [
+      "Letra hebraica: Beth (em algumas variantes, Aleph)",
+      "Astrologia: Mercúrio (influência mercuriana); associado também a Hermes Trismegisto"
+    ]
+  },
+  {
+    "id": 2,
+    "nome_site": "A Sacerdotisa",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Sacerdotisa_(Tarot)",
+    "palavras_chave": [
+      "Sabedoria",
+      "Conhecimento",
+      "Intuição",
+      "Iniciação",
+      "Oculto",
+      "Segredos",
+      "Paradoxo",
+      "Revelação"
+    ],
+    "resumo": "Segundo Arcano Maior, também chamada Papisa na escola francesa, é uma mulher em trajes cerimoniais ligada aos cultos de Ísis, guardiã de um saber que deve ser protegido dos não iniciados. Associa-se à sabedoria, à intuição e ao que está oculto; sua essência é o paradoxo, expresso pela dualidade do número dois, e é vista como a porta entre o exterior e o interior.",
+    "sentido_direto": "No plano mental, grande riqueza de ideias, respondendo melhor a problemas concretos do que a questões vagas. No emocional, é amistosa e acolhedora, mas não afetuosa. No físico, situação garantida, poder sobre os acontecimentos e revelação de coisas ocultas, com segurança diante do mal, boa saúde e ritmo lento.",
+    "sentido_invertido": "Dissimulação, hipocrisia e intenções secretas; mesquinharia, preguiça e inação. Também beatice, rancor, misticismo fanático, passividade e atrasos.",
+    "correspondencias": [
+      "Letra hebraica: Gimmel (algumas variantes: Beth)",
+      "Astrologia: influência saturnina passiva"
+    ]
+  },
+  {
+    "id": 3,
+    "nome_site": "A Imperatriz",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Imperatriz_(Tarot)",
+    "palavras_chave": [
+      "Fecundidade",
+      "Criatividade",
+      "Conhecimento prático",
+      "Esperança",
+      "Equilíbrio",
+      "Solução de problemas"
+    ],
+    "resumo": "Terceiro Arcano Maior, uma mulher madura, elegante e sedutora, que nos principais baralhos aparece grávida, sentada de frente num trono, coroada, com um escudo com águia e um cetro encimado por globo e cruz. É associada a figuras femininas como a Madona e as deusas matriarcais, e a página destaca que seu sentido depende mais de sua posição como terceira carta do que do simbolismo isolado.",
+    "sentido_direto": "No plano mental, penetração na matéria pelo conhecimento das coisas práticas. No emocional, capacidade de penetrar na alma dos seres, com pensamento fecundo e criador. No físico, esperança e equilíbrio; resolve os problemas.",
+    "sentido_invertido": "Desavenças e discussões em todos os planos.",
+    "correspondencias": [
+      "Letra hebraica: Daleth",
+      "Versão de Wirth: doze estrelas (nove visíveis) ligadas ao Zodíaco e à gestação"
+    ]
+  },
+  {
+    "id": 4,
+    "nome_site": "O Imperador",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Imperador_(Tarot)",
+    "palavras_chave": [
+      "Poder",
+      "Governo",
+      "Proteção paternal",
+      "Firmeza",
+      "Ordem",
+      "Estabilidade",
+      "Prestígio",
+      "Iniciação"
+    ],
+    "resumo": "Quarto Arcano Maior, um governante firme e rígido de cerca de 45 anos, coroado, sentado de perfil com as pernas cruzadas, segurando cetro com globo e cruz, com um escudo de águia. A postura das pernas cruzadas indica concentração da vontade e afirmação da individualidade; Wirth o vê como o homem comum ainda não realizado pela iniciação.",
+    "sentido_direto": "Representa poder, ordem, estabilidade e proteção paternal. No plano mental, inteligência equilibrada e prática; no emocional, acordo, paz e conciliação dos sentimentos; no físico, bens e poder passageiros, contratos firmados e saúde equilibrada, com tendência ao excesso.",
+    "sentido_invertido": "Perda de equilíbrio, queda, teimosia e oposição obstinada, risco de ser enganado, autoritarismo e tirania.",
+    "correspondencias": [
+      "Letra hebraica: Heh",
+      "Astrologia: influência saturnina-marciana",
+      "Relacionado à quarta letra do Tetragrama"
+    ]
+  },
+  {
+    "id": 5,
+    "nome_site": "O Hierofante",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Hierofante_(Tarot)",
+    "palavras_chave": [
+      "Líder espiritual",
+      "Pensamento lógico",
+      "Consciência elevada",
+      "Equilíbrio",
+      "Segurança",
+      "Vocação religiosa",
+      "Revelação de segredos"
+    ],
+    "resumo": "Quinto Arcano Maior, um sacerdote de alta hierarquia, por volta dos 60 anos, que atua como líder espiritual: abençoa com a mão direita, segura uma cruz de seis braços e usa tiara, diante de dois tonsurados de costas. Segundo Wirth, as duas figuras representam quem compreende e quem obedece por medo.",
+    "sentido_direto": "No plano mental, pensamento lógico e ideias inspiradas por uma consciência mais elevada. No emocional, sentimentos sólidos expressos com equilíbrio, sem sentimentalismo. No físico, equilíbrio e segurança nas situações e na saúde, revelação de segredos e vocação religiosa ou científica.",
+    "sentido_invertido": "Falta de razão ou de apoio espiritual, projetos atrasados, rigidez, dogmatismo e autoritarismo; conselhos sem sentido prático, problemas de saúde e indecisão.",
+    "correspondencias": [
+      "Letra hebraica: Vav",
+      "Outros nomes: O Papa, O Sacerdote"
+    ]
+  },
+  {
+    "id": 6,
+    "nome_site": "Os Enamorados",
+    "url": "https://wiki.deldebbio.com.br/index.php/Os_Enamorados_(Tarot)",
+    "palavras_chave": [
+      "Escolha",
+      "União",
+      "Matrimônio",
+      "Dedicação",
+      "Sacrifício",
+      "Amor às artes"
+    ],
+    "resumo": "Sexto Arcano Maior, mostra um homem entre duas mulheres sob a flecha de um Cupido (Marselha) ou a expulsão de Adão e Eva do paraíso (Rider-Waite), remetendo sempre a uma escolha. Liga-se à parábola de Hércules entre a Virtude e o Vício e é lido por Wirth como a primeira fase individual da trajetória iniciática.",
+    "sentido_direto": "É a carta da união e do matrimônio. No plano mental, amor pelas belas formas e pelas artes plásticas; no emocional, dedicação e sacrifícios.",
+    "sentido_invertido": "Ruptura, separação, corte, desordem e divórcio.",
+    "correspondencias": [
+      "Letra hebraica: Zain",
+      "Árvore da Vida: caminho de Zain, que separa os mundos pelo Abismo (citado no Rider-Waite)"
+    ]
+  },
+  {
+    "id": 7,
+    "nome_site": "O Carro",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Carro_(Tarot)",
+    "palavras_chave": [
+      "Vitória",
+      "Triunfo",
+      "Progresso",
+      "Mobilidade",
+      "Viagens por terra",
+      "Atividade",
+      "Rapidez"
+    ],
+    "resumo": "Sétimo Arcano Maior, uma carruagem sem rédeas puxada por um cavalo branco e um negro que parecem seguir em direções opostas, conduzida por um rei coroado sob um dossel de quatro colunas. O tema remete aos heróis triunfantes e à lenda da ascensão de Alexandre, usada na Idade Média como alegoria do orgulho.",
+    "sentido_direto": "Vitória, triunfo, progresso e viagens. No plano mental, as coisas se realizam, mas ainda falta montar o conjunto; no emocional, afeto manifestado, protetor e prestativo; no físico, grande atividade e rapidez, boa saúde, movimento de dinheiro, notícias inesperadas e difusão do trabalho do consulente.",
+    "sentido_invertido": "Ambições injustificadas, vanglória e megalomania; governo ilegítimo, cansaço excessivo e perda de controle.",
+    "correspondencias": [
+      "Letra hebraica: Cheth"
+    ]
+  },
+  {
+    "id": 8,
+    "nome_site": "A Força",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_For%C3%A7a_(Tarot)",
+    "palavras_chave": [
+      "Domínio das paixões",
+      "Discernimento",
+      "Vontade",
+      "Conquista",
+      "Proteção afetuosa",
+      "Doma"
+    ],
+    "resumo": "Oitavo Arcano Maior, uma jovem de cabelos soltos, com chapéu semelhante ao do Mago, que domina um leão segurando suas mandíbulas, sem matá-lo. A ideia central é a doma, não a destruição: o que é instintivo deve ser utilizado, não aniquilado.",
+    "sentido_direto": "No plano mental, grande agudeza para distinguir o verdadeiro do falso e o útil do inútil. No emocional, domínio sobre as paixões, poder de conquista e proteção afetuosa. No físico, vontade para vencer obstáculos, domínio da situação e defesa dos próprios direitos legítimos.",
+    "sentido_invertido": "A pessoa não domina a própria força: torna-se brutal e desatenta, deixando-se levar pelo poder em vez de usá-lo.",
+    "correspondencias": [
+      "Letra hebraica: Teth",
+      "Astrologia: possível alusão a Leão vencido por Virgem",
+      "Variantes: numerada XI em alguns tarôs; Crowley a chamou de Luxúria"
+    ]
+  },
+  {
+    "id": 9,
+    "nome_site": "O Eremita",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Eremita_(Tarot)",
+    "palavras_chave": [
+      "Isolamento",
+      "Autoconhecimento",
+      "Sabedoria",
+      "Iluminação",
+      "Meditação",
+      "Recolhimento",
+      "Prudência",
+      "Iniciado"
+    ],
+    "resumo": "Nono Arcano Maior, um homem de pé com bastão e lanterna erguida, que se afasta da sociedade para buscar conhecimento. Representa o iniciado e buscador incansável, que rompe temporária ou definitivamente os laços sociais em nome do autoconhecimento.",
+    "sentido_direto": "Sabedoria, estudo, meditação, prudência e a capacidade de desligar-se. No plano mental, contribuição luminosa à solução de qualquer problema; no emocional, alcançar as soluções; no físico, segredo descoberto e luz sobre projetos até então ocultos.",
+    "sentido_invertido": "Obscuridade e falsa compreensão de uma situação; timidez, isolamento, depressão e recusa de relações.",
+    "correspondencias": [
+      "Letra hebraica: Yod (algumas variantes: Teth)",
+      "Astrologia: influência saturnina (associado a Cronos na variante com ampulheta)"
+    ]
+  },
+  {
+    "id": 10,
+    "nome_site": "A Roda da Fortuna",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Roda_da_Fortuna_(Tarot)",
+    "palavras_chave": [
+      "Mudança",
+      "Ciclos",
+      "Destino",
+      "Juízo equilibrado",
+      "Instabilidade",
+      "Idades da vida"
+    ],
+    "resumo": "Décimo Arcano Maior, uma roda suspensa em ambiente com os quatro elementos, com figuras que sobem e descem pelos raios e, no topo, uma figura semelhante a uma esfinge coroada com espada. Representa o ciclo da vida e as fases da fortuna, tema herdado da Antiguidade e das rosáceas góticas.",
+    "sentido_direto": "No plano mental, lógica, regularidade e juízo equilibrado e sadio. No emocional, traz animação e reforça os sentimentos. No físico, os acontecimentos são instáveis porque pedem mudança, que tende a ser para melhor; também boa saúde circulatória e bons augúrios para o casamento.",
+    "sentido_invertido": "Transformação difícil, que pode exigir recomeçar sobre outras bases; descuido, especulação, insegurança, imprevisão e situações instáveis, com ganhos e perdas.",
+    "correspondencias": [
+      "Letra hebraica: Kaph",
+      "Elementos: Fogo, Água, Terra e Ar (ambiente da roda)",
+      "Astrologia: influências lunares e mercurianas; aspecto solar e zodiacal da roda"
+    ]
+  },
+  {
+    "id": 11,
+    "nome_site": "A Justiça",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Justi%C3%A7a_(Tarot)",
+    "palavras_chave": [
+      "Clareza de juízo",
+      "Equilíbrio",
+      "Ordem",
+      "Prestação de contas",
+      "Reabilitação",
+      "Julgamento interior"
+    ],
+    "resumo": "Décimo primeiro Arcano Maior, uma jovem serena num trono, com a espada erguida na mão direita e a balança equilibrada junto ao coração; a túnica sugere uma mandorla, conciliação de polaridades. Diferente da Têmis grega, não usa venda, e a página a associa mais a um processo interior de julgamento do que à lei social.",
+    "sentido_direto": "No plano mental, clareza de juízo e conselhos que permitem avaliar com justeza. No emocional, aridez e consideração estrita, com possibilidade de cortar vínculos afetivos, separação ou divórcio. No físico, processo, reabilitação e prestação de contas, além de saúde equilibrada com risco de problemas por excessos.",
+    "sentido_invertido": "Perda, injustiça, condenação injusta e processo com castigo; também grande desordem, risco de golpes e acomodação.",
+    "correspondencias": [
+      "Letra hebraica: Lamed",
+      "Astrologia: Libra",
+      "Variantes: numerada VIII em alguns baralhos; Crowley a chamou de Ajuste"
+    ]
+  },
+  {
+    "id": 12,
+    "nome_site": "O Enforcado",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Enforcado_(Tarot)",
+    "palavras_chave": [
+      "Abnegação",
+      "Sacrifício",
+      "Provas iniciáticas",
+      "Gestação",
+      "Submissão ao dever",
+      "Mudança de vida",
+      "Paz interior",
+      "Semente"
+    ],
+    "resumo": "Décimo segundo Arcano Maior, um homem suspenso pelo pé esquerdo de uma trave entre duas árvores podadas, com as mãos atrás da cintura e a outra perna cruzada. Transmite imobilidade voluntária e suspensão entre dois mundos; Wirth o via como símbolo de sacrifício e intuição no caminho iniciático, em oposição ao Mago.",
+    "sentido_direto": "Abnegação, aceitação do destino, iniciação e amadurecimento. No plano mental, possibilidades variadas e incertezas, algo ainda em gestação; no emocional, falta de clareza e indecisão afetiva; no físico, renúncias, ações travadas e projetos incertos, com possíveis problemas circulatórios.",
+    "sentido_invertido": "Resultados parciais, planos ocultos, promessas não cumpridas, passividade e perdas.",
+    "correspondencias": [
+      "Letra hebraica: Mem",
+      "Outro nome: O Pendurado"
+    ]
+  },
+  {
+    "id": 13,
+    "nome_site": "A Morte",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Morte_(Tarot)",
+    "palavras_chave": [
+      "Transmutação",
+      "Renascimento",
+      "Fim de uma fase",
+      "Fatalidade",
+      "Resignação",
+      "Desapego",
+      "Renovação"
+    ],
+    "resumo": "Décimo terceiro Arcano Maior, um esqueleto com foice sobre um chão escuro de onde brotam plantas e restos humanos, entre eles cabeças de mulher e de rei. Temida pelos iniciantes, é lida simbolicamente como a morte necessária de um ciclo seguida de renascimento, comparável ao processo iniciático.",
+    "sentido_direto": "Transmutação, renascimento e fim de uma fase. No plano mental, renovação total ou parcial das ideias por algo que vai transformar tudo; no emocional, afastamento e destruição de um sentimento ou esperança; no físico, perdas, imobilidade e transformação completa dos negócios ou atividades.",
+    "sentido_invertido": "Na saúde, estagnação de doença ou processo; também prazo fatal, más notícias e pessimismo.",
+    "correspondencias": [
+      "Letra hebraica: Nun",
+      "Associada à terra e aos quatro elementos em geral"
+    ]
+  },
+  {
+    "id": 14,
+    "nome_site": "A Temperança",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Temperan%C3%A7a_(Tarot)",
+    "palavras_chave": [
+      "Conciliação",
+      "Equilíbrio",
+      "Afinidade",
+      "Transmutação",
+      "Cura",
+      "Imparcialidade"
+    ],
+    "resumo": "Décimo quarto Arcano Maior, um anjo de rosto feminino que passa o conteúdo de um vaso para outro, com linhas onduladas indicando energias em transmutação. Representa a virtude medieval da temperança, o equilíbrio entre opostos, a androginia e funções de cura e reparação.",
+    "sentido_direto": "No plano mental, espírito de conciliação e julgamento sem paixões. No emocional, os seres se reconhecem e se encontram por afinidade. No físico, conciliação nos negócios, atividades e empreendimentos.",
+    "sentido_invertido": "Desordens e discordâncias, indiferença, falta de personalidade e passividade.",
+    "correspondencias": [
+      "Letra hebraica: Sameck",
+      "Astrologia: Sagitário"
+    ]
+  },
+  {
+    "id": 15,
+    "nome_site": "O Diabo",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Diabo_(Tarot)",
+    "palavras_chave": [
+      "Tentação",
+      "Paixão",
+      "Luxúria",
+      "Dependência",
+      "Magnetismo",
+      "Poder oculto",
+      "Magia",
+      "Desordem"
+    ],
+    "resumo": "Décimo quinto Arcano Maior, um diabo alado, com chifres e traços animais, sobre um pedestal ao qual duas figuras nuas estão presas pelo pescoço (no Rider-Waite ele segura uma tocha). Fala de provas, tentações, paixão, dependência e poder oculto; a página o liga à iconografia medieval do Diabo e ao Baphomet dos templários.",
+    "sentido_direto": "Magnetismo, poder oculto e proteção contra forças obscuras, mas também tentação e dependência. No plano mental, grande atividade, porém egoísta e sem preocupação com a justiça; no emocional, inconstância, avidez, libertinagem e indiferença ao próximo; no físico, forte influência sobre os outros e busca de poder material, com sucessos por vias censuráveis, possível punição posterior e instabilidade nervosa.",
+    "sentido_invertido": "Ação com base ruim, desordem, enfeitiçamento, dependência dos sentidos, intriga, fraqueza e egoísmo.",
+    "correspondencias": [
+      "Letra hebraica: Ayin"
+    ]
+  },
+  {
+    "id": 16,
+    "nome_site": "A Torre",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Torre_(Tarot)",
+    "palavras_chave": [
+      "Ruptura",
+      "Transição",
+      "Destruição da rigidez",
+      "Desmoronamento",
+      "Queda",
+      "Perdas",
+      "Insegurança",
+      "Conhecimento"
+    ],
+    "resumo": "Décimo sexto Arcano Maior, também chamado A Casa de Deus: uma torre atingida e decapitada por um raio, da qual caem dois homens, sob uma chuva de esferas coloridas. Alude à Torre de Babel e é uma alegoria do orgulho, representando a ruptura das formas aprisionadoras.",
+    "sentido_direto": "Rompimento de estruturas rígidas e desafios de transição. No plano mental, alerta para o perigo de insistir numa ideia fixa; no emocional, domínio sobre os outros sem caridade nem amor, com possível rejeição futura; no físico, projeto brutalmente abortado, cautela nos negócios e na saúde, mas recuperação após um período difícil em caso de doença.",
+    "sentido_invertido": "Grande cataclismo e confusão completa; doença, catástrofe por imprudência, escândalo e orgulho.",
+    "correspondencias": [
+      "Letra hebraica: Peh",
+      "Outros nomes: A Casa de Deus, La Maison-Dieu"
+    ]
+  },
+  {
+    "id": 17,
+    "nome_site": "A Estrela",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Estrela_(Tarot)",
+    "palavras_chave": [
+      "Esperança",
+      "Confiança",
+      "Idealismo",
+      "Imortalidade",
+      "Beleza",
+      "Pureza",
+      "Intuição",
+      "Bondade"
+    ],
+    "resumo": "Décimo sétimo Arcano Maior, uma jovem nua, ajoelhada, que derrama duas jarras, uma na água e outra na terra, sob uma grande estrela de dezesseis pontas cercada por estrelas menores. Simboliza esperança, idealismo, pureza e imortalidade (representada pela acácia), além do princípio feminino e da juventude.",
+    "sentido_direto": "No plano mental, inspiração sobre o que deve ser feito, por meio de uma força que age indiretamente. No emocional, uma corrente de equilíbrio e esplendor. No físico, satisfação e amor humano, realização pela ordem e pela harmonia e o dom do encantamento nas artes.",
+    "sentido_invertido": "Harmonia desviada de seu destino e falta de espontaneidade; tendência à evasão, romantismo exagerado e dificuldade com a vida prática.",
+    "correspondencias": [
+      "Letra hebraica: Tzaddi (no tarô de Crowley: Heh)",
+      "Astrologia: comparação com Aquário, sem correspondência explícita"
+    ]
+  },
+  {
+    "id": 18,
+    "nome_site": "A Lua",
+    "url": "https://wiki.deldebbio.com.br/index.php/A_Lua_(Tarot)",
+    "palavras_chave": [
+      "Inteligência instintiva",
+      "Ciclos vitais",
+      "Imaginação",
+      "Ilusões",
+      "Engano",
+      "Inspiração"
+    ],
+    "resumo": "Décimo oitavo Arcano Maior, uma lua cheia e crescente com perfil humano, de onde caem gotas, sobre dois cães ou lobos, duas torres e um lagostim num tanque. Representa a inteligência instintiva, os ciclos vitais, a imaginação e as ilusões, sendo associada à porta do Céu e à porta do Inferno.",
+    "sentido_direto": "Inteligência instintiva e busca de inspiração no retorno à fonte. No plano mental, mentira em negociações ou erro no trabalho pessoal; no emocional, sentimentos conturbados e passionais, aparentemente sem saída; no físico, obscurecimento, agitação, escândalo, difamação e segredo que se torna público.",
+    "sentido_invertido": "Embustes, enganos, decepção e desilusão.",
+    "correspondencias": [
+      "Letra hebraica: Qof",
+      "Astrologia: a Lua; Câncer (pelo caranguejo) e solstício de verão no hemisfério norte"
+    ]
+  },
+  {
+    "id": 19,
+    "nome_site": "O Sol",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Sol_(Tarot)",
+    "palavras_chave": [
+      "Vitalidade",
+      "Alegria",
+      "Clareza",
+      "Luz",
+      "Razão",
+      "Concórdia",
+      "Felicidade conjugal",
+      "Glória"
+    ],
+    "resumo": "Décimo nono Arcano, dois meninos diante de um muro amarelo sob um sol de rosto humano do qual caem treze gotas. Representa vitalidade, alegria, luz, razão e o princípio celeste; Wirth vê o par como filhos da luz e alegoria da união entre sentimento e razão.",
+    "sentido_direto": "Vitalidade, alegria, clareza, talento artístico, felicidade conjugal e reconhecimento. No plano mental, propósitos elevados e sabedoria nos escritos; no emocional, afeto cavalheiresco, altruísmo e grandes sentimentos; no físico, saúde, beleza e triunfo, com saída para qualquer situação adversa.",
+    "sentido_invertido": "Grande adversidade, sorte contrária e tentativas às cegas; deslumbramento, vaidade, pose e fanfarrice.",
+    "correspondencias": [
+      "Letra hebraica: Resh",
+      "Astrologia: o Sol (influência solar); Gêmeos como interpretação possível"
+    ]
+  },
+  {
+    "id": 20,
+    "nome_site": "O Julgamento",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Julgamento_(Tarot)",
+    "palavras_chave": [
+      "Ressurreição",
+      "Recomeço",
+      "Perdão",
+      "Redenção",
+      "Elevação",
+      "Despertar",
+      "Exame de consciência"
+    ],
+    "resumo": "Vigésimo Arcano, um anjo entre nuvens toca a trombeta enquanto três figuras nuas, uma saindo de um sarcófago, parecem orar, numa imagem inspirada no Juízo Final. Representa a ressurreição como passagem a um estágio mais positivo e o despertar do espírito adormecido; Wirth vê no trio a família em regeneração.",
+    "sentido_direto": "No plano afetivo sugere recomeço, perdão e redenção. No plano mental, o chamado a um estado superior e desejos de elevação; no emocional, devoção e exame de consciência; no físico, estabilidade nos assuntos encaminhados, saúde e equilíbrio.",
+    "sentido_invertido": "Erro em relação a si mesmo e a todas as coisas, com provas e trabalhos decorrentes de um juízo falso.",
+    "correspondencias": [
+      "Letra hebraica: Shin (algumas variantes: Resh)"
+    ]
+  },
+  {
+    "id": 21,
+    "nome_site": "O Mundo",
+    "url": "https://wiki.deldebbio.com.br/index.php/O_Mundo_(Tarot)",
+    "palavras_chave": [
+      "Conclusão",
+      "Realização",
+      "Integração",
+      "Recompensa",
+      "Harmonia",
+      "Felicidade",
+      "Apoteose",
+      "Reconhecimento"
+    ],
+    "resumo": "Vigésimo primeiro Arcano, uma figura nua que dança dentro de uma grinalda amendoada, cercada pelos quatro seres dos evangelistas (anjo, águia, leão e touro). Representa conclusão, integração, harmonia e a totalidade do manifestado.",
+    "sentido_direto": "Finalização, realização, recompensa, alegria de viver, riqueza e reconhecimento. No plano mental, grande poder da mente e tendência à perfeição; no emocional, elevação do espírito, altruísmo e amor à humanidade, com inspiração abundante para artistas; no físico, experiência rica, atividades sólidas, êxito mundano e boa saúde.",
+    "sentido_invertido": "Fracasso, obstáculos formidáveis, ambiente hostil, dispersão, ruína e desconsideração social.",
+    "correspondencias": [
+      "Letra hebraica: Tav",
+      "Astrologia: os quatro signos fixos (Aquário, Escorpião, Touro e Leão)",
+      "Representa o elemento feminino",
+      "Variante: chamado Aeon em alguns tarôs"
+    ]
+  },
+  {
+    "id": 22,
+    "nome_site": "Ás de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/%C3%81s_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "amor",
+      "alegria",
+      "abundância",
+      "fertilidade",
+      "nutrição",
+      "lar",
+      "abertura emocional",
+      "novo sentimento"
+    ],
+    "resumo": "Representa o aprofundamento interior das riquezas conquistadas em todos os planos do sentimento. É a raiz da energia emocional: amor como base da vida, abertura do coração e receptividade.",
+    "sentido_direto": "No plano mental, juízo claro e inspirado; no anímico, sensibilidade elevada, altruísmo e caridade; no físico, contato com o que há de elevado na matéria, grandes empreendimentos e obras artísticas. Na cartomancia indica o lar do coração verdadeiro, alegria, contentamento, estabilidade, abundância e fertilidade, com temas de casa, mesa e banquete. Os tarólogos falam de um novo sentimento ou vínculo, do dom do amor, de novos relacionamentos, casamento e maternidade, e de equilíbrio e intensidade emocional.",
+    "sentido_invertido": "Apego à matéria com perda da espiritualidade, caindo no materialismo. Na cartomancia, lar do coração falso, mudança, instabilidade e revolução; para Pollack, ruptura por não reconhecer o que a vida oferece.",
+    "correspondencias": [
+      "Árvore da Vida: Kether (Árvore da Água)",
+      "Elemento: Fogo em Água",
+      "Regência: Plutão e Netuno"
+    ]
+  },
+  {
+    "id": 23,
+    "nome_site": "Dois de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dois_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "amor",
+      "paixão",
+      "amizade",
+      "afinidade",
+      "união",
+      "concórdia",
+      "reconciliação",
+      "parceria"
+    ],
+    "resumo": "Representa o impulso dos desejos materiais que alimentam tendências instintivas, mas deixam experiências como base para evolução futura. Na leitura usual é a carta da união, do amor e da afinidade entre duas pessoas.",
+    "sentido_direto": "No plano mental, esclarecimento após um período de obscuridade; no anímico, uma força íntima e sólida em que se apoiar, desde que não vire paixão devoradora; no físico, assuntos ricos em potencial que pedem ação externa, e saúde equilibrada ou estacionária. A cartomancia associa a carta a amor, paixão, amizade, união, concórdia e simpatia. Os tarólogos a leem como o 'Senhor do Amor' (Crowley), a fusão dos opostos, início de romance ou amizade, compromisso, harmonia e reconciliação.",
+    "sentido_invertido": "Desordem ou complicações nos relacionamentos sentimentais; na cartomancia, rivalidades e obstáculos no amor. Pollack fala da ruptura entre ação e emoção.",
+    "correspondencias": [
+      "Árvore da Vida: Hochma (Árvore da Água)",
+      "Elemento: Fogo em Água",
+      "Regência: Urano e Netuno",
+      "Astrologia: Vênus em Câncer"
+    ]
+  },
+  {
+    "id": 24,
+    "nome_site": "Três de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Tr%C3%AAs_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "celebração",
+      "abundância",
+      "alegria",
+      "amizade",
+      "conclusão feliz",
+      "cura",
+      "graça",
+      "realização"
+    ],
+    "resumo": "Representa a sublimação de uma receptividade instintiva em riquezas dos sentimentos superiores. É uma carta de alegria compartilhada, celebração e desfecho feliz.",
+    "sentido_direto": "No plano mental, penetração espiritual para organizar assuntos materiais; no anímico, realização psíquica; no físico, aporte espiritual, o espírito encarnado na matéria. A cartomancia fala de conclusão plena, vitória, alívio, cura, êxito, novas afeições e realização de esperanças, com possível excesso nos prazeres dos sentidos. Os tarólogos destacam abundância emocional, amizade, hospitalidade e celebrações (casamento, nascimento); Crowley aconselha desconfiar das coisas boas mesmo desfrutando delas, e Riley associa a carta a algo emocional que ocorre em até uma semana.",
+    "sentido_invertido": "Materialismo, superficialidade e apego excessivo à matéria.",
+    "correspondencias": [
+      "Árvore da Vida: Binah (Árvore da Água)",
+      "Elemento: Fogo em Água",
+      "Regência: Saturno",
+      "Astrologia: Mercúrio em Câncer"
+    ]
+  },
+  {
+    "id": 25,
+    "nome_site": "Quatro de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Quatro_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "estabilidade",
+      "reservas",
+      "apatia",
+      "descontentamento",
+      "cansaço",
+      "luxúria emocional",
+      "intuição",
+      "fim de ciclo"
+    ],
+    "resumo": "Simboliza as reservas acumuladas com esforço, que trazem proveito em qualidade e duração. Ao mesmo tempo, muitas leituras apontam apatia, cansaço e descontentamento diante do que já se tem.",
+    "sentido_direto": "No plano mental, confiar na intuição e agir sem se perder em análises; no anímico, realização psíquica estável; no físico, negócio bem estabelecido e duradouro, com segurança quanto à saúde. A cartomancia mistura cansaço, desgosto e vexames imaginários com amores sólidos, amizades úteis e aproximação de uma alegria. Os tarólogos variam entre conforto e segurança emocional (Arrien, Riley) e apatia, letargia, oportunidades desperdiçadas e 'descontentamento divino'; Crowley a chama de 'Senhor da Luxúria', uma estabilidade que perdeu a pureza.",
+    "sentido_invertido": "Estagnação, atravancamento e problemas circulatórios.",
+    "correspondencias": [
+      "Árvore da Vida: Chesed (Árvore da Água)",
+      "Elemento: Água em Água",
+      "Regência: Júpiter",
+      "Astrologia: Lua em Câncer"
+    ]
+  },
+  {
+    "id": 26,
+    "nome_site": "Cinco de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cinco_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "perda",
+      "decepção",
+      "arrependimento",
+      "pesar",
+      "herança frustrada",
+      "luto",
+      "aceitação",
+      "recuperação"
+    ],
+    "resumo": "Representa a organização das percepções e da sensibilidade captadas em níveis profundos, levando os sentimentos ao plano espiritual. Na leitura usual é a carta da perda em que algo ainda permanece.",
+    "sentido_direto": "No plano mental, clareza de concepção e domínio da situação; no anímico, impulso místico, ternura maternal e sacrifício por amor; no físico, segurança para conduzir os negócios com sutileza e vitalidade delicada sustentada pela força de espírito. A cartomancia fala de perda parcial, heranças que frustram as expectativas, matrimônio com amargura e contrariedades no amor. Os tarólogos convergem em decepção, pesar e arrependimento ('Senhor da Decepção' para Crowley), mas também em aceitação, aprendizado e início de recuperação.",
+    "sentido_invertido": "Interrupção da evolução, com tristeza, desânimo, angústia e desespero.",
+    "correspondencias": [
+      "Árvore da Vida: Geburah (Árvore da Água)",
+      "Elemento: Água",
+      "Planeta: Marte",
+      "Astrologia: Marte em Escorpião"
+    ]
+  },
+  {
+    "id": 27,
+    "nome_site": "Seis de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Seis_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "memórias",
+      "infância",
+      "nostalgia",
+      "prazer",
+      "harmonia",
+      "dar e receber",
+      "novas relações",
+      "inocência"
+    ],
+    "resumo": "Representa a evolução dos instintos, sentimentos e intuições em busca do equilíbrio das percepções. Na leitura usual é a carta do passado, das lembranças e do prazer sem esforço.",
+    "sentido_direto": "No plano mental, julgamento sólido e benéfico, em harmonia entre espiritual e material; no anímico, sentimentos fortes, protetores e equilibrados; no físico, negócio estável e saúde robusta, com tendência a excesso de sangue. A cartomancia liga a carta à infância e à felicidade vinda do passado, além de novas relações e renovação futura; no casamento, pode indicar má escolha por influência de parentes. Os tarólogos falam de memórias doces, inocência, dar e receber e prazer ('Senhor do Prazer' para Crowley), com risco de idealizar o passado.",
+    "sentido_invertido": "A página não tem seção 'reverso', apenas um item negativo '(–)': mal-estar e lentidão, porém momentâneos.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet (Árvore da Água)",
+      "Elemento: Água",
+      "Regência: Sol",
+      "Astrologia: Sol em Escorpião"
+    ]
+  },
+  {
+    "id": 28,
+    "nome_site": "Sete de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Sete_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "imaginação",
+      "fantasia",
+      "escolha",
+      "ilusão",
+      "sonhos",
+      "desejo",
+      "visões",
+      "projetos"
+    ],
+    "resumo": "Simboliza o desejo de expansão humana e a compreensão e realização que dele decorrem. Na leitura usual é a 'carta da escolha', marcada por imaginação, sonhos e muitas opções sem substância garantida.",
+    "sentido_direto": "No plano mental, ideias criativas, educação e revelação; no anímico, amor protetor e impessoal, como o amor à pátria; no físico, negócios conduzidos com raciocínio claro e intuição segura, boa saúde e agilidade. A cartomancia fala de favores agradáveis, imaginação, desejo e projetos, sem nada permanente ou substancial. Os tarólogos destacam fantasia desconectada da realidade, dificuldade de escolha e autoilusão (Crowley: afundamento em falsos prazeres), mas também talento criativo e visões que podem ser verdadeiras.",
+    "sentido_invertido": "Mal-estar (item '(–)' da página).",
+    "correspondencias": [
+      "Árvore da Vida: Netzach (Árvore da Água)",
+      "Elemento: Ar em Água",
+      "Regência: Vênus",
+      "Astrologia: Vênus em Escorpião"
+    ]
+  },
+  {
+    "id": 29,
+    "nome_site": "Oito de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Oito_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "abandono",
+      "partida",
+      "estagnação",
+      "retiro",
+      "declínio",
+      "desilusão",
+      "indolência",
+      "regeneração"
+    ],
+    "resumo": "Representa uma clarividência nascida de um julgamento equilibrado, que só se usa quando se é estimulado a abandonar a passividade. Muitas leituras falam de deixar o conhecido para trás ou de estagnação emocional.",
+    "sentido_direto": "No plano mental, fixação em ideias obsessivas; no anímico, afeição entre dois seres que não se libertam de si mesmos; no físico, negócios estáveis que precisam evoluir e um estado doentio que persiste sem providências. A cartomancia indica o declínio de um assunto que parecia importante, mas também alegria, modéstia e prazer, com riscos de escândalos amorosos e sendo favorável aos negócios. Os tarólogos falam de abandonar uma situação esgotada, retiro para regenerar energias, desilusão e 'Senhor da Indolência' (Crowley).",
+    "sentido_invertido": null,
+    "correspondencias": [
+      "Árvore da Vida: Hod (Árvore da Água)",
+      "Elemento: Ar em Água",
+      "Regência: Mercúrio",
+      "Astrologia: Saturno em Peixes"
+    ]
+  },
+  {
+    "id": 30,
+    "nome_site": "Nove de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Nove_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "contentamento",
+      "satisfação",
+      "desejo realizado",
+      "bem-estar",
+      "vitória",
+      "felicidade",
+      "prosperidade",
+      "plenitude"
+    ],
+    "resumo": "Simboliza uma relação harmoniosa da alma humana com o mundo. É tradicionalmente a carta do desejo realizado, do contentamento e do bem-estar.",
+    "sentido_direto": "No plano mental, clareza de julgamento guiada pelo conhecimento; no anímico, ações voltadas à coletividade e obras altruístas; no físico, negócios em progresso, boa saúde e recuperação de doenças. A cartomancia fala de contentamento, bem-estar físico, vitória, prosperidade e boa-fé, recomendando prudência nos desejos e nas escolhas afetivas. Os tarólogos destacam plenitude emocional, autoestima e realização de desejos; Crowley a chama de 'Senhor da Felicidade', lembrando que a situação não é permanente.",
+    "sentido_invertido": "Desordem ou confusão e persistência no erro.",
+    "correspondencias": [
+      "Árvore da Vida: Yesod (Árvore da Água)",
+      "Elemento: Ar em Água",
+      "Regência: Lua",
+      "Astrologia: Júpiter em Peixes"
+    ]
+  },
+  {
+    "id": 31,
+    "nome_site": "Dez de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dez_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "felicidade familiar",
+      "contentamento",
+      "plenitude",
+      "gratidão",
+      "amor",
+      "amizade",
+      "realização",
+      "paz interior"
+    ],
+    "resumo": "Representa quem, após concluir seu trabalho, se volta à oração e pede ajuda divina para o novo caminho de sua evolução. É a carta da plenitude emocional, do repouso do coração e da felicidade familiar.",
+    "sentido_direto": "No plano mental, êxito no pensamento e julgamento equilibrado; no anímico, amor sadio e união completa em todos os planos; no físico, sucesso nos empreendimentos, desfecho de projetos e saúde excelente. A cartomancia fala de contentamento, perfeição no amor e na amizade, vida feliz com família numerosa e muitos amigos. Os tarólogos destacam felicidade doméstica, gratidão e metas alcançadas; Crowley ('Senhor da Saciedade') e Fairfield alertam que, após a conclusão, pode haver perturbação ou a hora de seguir adiante.",
+    "sentido_invertido": "Demoras. Na cartomancia, falso repouso do coração, indignação e violência.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth (Árvore da Água)",
+      "Elemento: Terra em Água",
+      "Regência: Terra",
+      "Astrologia: Marte em Peixes"
+    ]
+  },
+  {
+    "id": 32,
+    "nome_site": "Princesa de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Princesa_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "sensibilidade",
+      "intuição",
+      "renovação",
+      "apoio afetivo",
+      "jovem",
+      "romantismo",
+      "sonhos",
+      "surpresa"
+    ],
+    "resumo": "Descrita como um recurso espiritual e feliz que chega quando a evolução psíquica vem acompanhada de entrega da alma. Representa uma figura jovem, sensível e intuitiva, aberta aos sentimentos.",
+    "sentido_direto": "No plano mental, conforto em pensamentos espirituais e fim das dúvidas; no anímico, renovação do ânimo e chegada de apoio afetivo; no físico, alívio da tristeza, rompimento com envolvimentos sentimentais e esperança de cura de doença grave. A cartomancia descreve um jovem (louro, estudioso) favorável ao consulente ou pretendente, alegria e surpresa, mas também elogios vazios e possível traição. Os tarólogos falam de pessoa jovem, sensível e criativa, com dons artísticos ou psíquicos, abertura ao amor, mensagens dos sonhos e risco de dependência emocional.",
+    "sentido_invertido": "Abatimento, empobrecimento psíquico e sensação de abandono. Pollack acrescenta, na invertida, impulsividade e compras desnecessárias.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth (Árvore da Água)",
+      "Elemento: Água (Crowley: Terra de Água)",
+      "Signos: Câncer, Peixes e Escorpião"
+    ]
+  },
+  {
+    "id": 33,
+    "nome_site": "Cavaleiro de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cavaleiro_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "romantismo",
+      "idealismo",
+      "inspiração",
+      "proposta",
+      "convite",
+      "imaginação",
+      "devoção",
+      "sensibilidade"
+    ],
+    "resumo": "Representa o elemento sensível e afetivo do ser humano, capaz de impulsos generosos e de devoção. É o romântico idealista, ligado a propostas, convites e chegada de notícias.",
+    "sentido_direto": "No plano mental, ideias férteis, inspiração e intuições espontâneas; no anímico, florescimento de dons artísticos e ânimo para realizar ideais; no físico, casamentos felizes e ótima saúde. A cartomancia fala de convite, boa notícia, chegada, proposta ou viagem, mas também de falsidade, ciúme, rivalidade amorosa e casamento atrasado. Os tarólogos o leem como o Amante apaixonado, o idealista romântico em busca de beleza e amor, às vezes temperamental, passivo ou evitando compromisso; Crowley o chama de 'Ar de Água'.",
+    "sentido_invertido": "A página não tem seção 'reverso', apenas um item negativo '(–)': atrasos e embaraços.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet (Árvore da Água)",
+      "Signos: intersecção de Libra e Escorpião",
+      "Crowley: Ar de Água"
+    ]
+  },
+  {
+    "id": 34,
+    "nome_site": "Rainha de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rainha_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "altruísmo",
+      "amor universal",
+      "intuição",
+      "empatia",
+      "maternidade",
+      "imaginação",
+      "sonho",
+      "devoção"
+    ],
+    "resumo": "Representa os sentimentos altruístas guardados no íntimo, que só se manifestam pelo esforço diário de dedicação e afeto. É a figura feminina madura, intuitiva, empática e sonhadora.",
+    "sentido_direto": "No plano mental, transcendência e relação com forças universais; no anímico, amor universal e altruísmo superior; no físico, domínio, sucesso, realização sentimental e saúde perfeita. A cartomancia descreve uma mulher virtuosa, amiga afetuosa ou irmã amorosa de quem se podem esperar favores, e um casamento feliz para um homem. Os tarólogos destacam empatia, maturidade emocional, dons psíquicos, amor maternal e vida rica em fantasia, com riscos de humor instável e imaginação sem ação; Crowley a chama de 'Água de Água'.",
+    "sentido_invertido": "Obscurecimento e alucinação, com necessidade de ajuda do Valete ou do Cavaleiro de Espadas. Na cartomancia, esperanças retardadas ou rival das mulheres.",
+    "correspondencias": [
+      "Árvore da Vida: Binah (Árvore da Água)",
+      "Signos: intersecção de Gêmeos e Câncer",
+      "Crowley: Água de Água"
+    ]
+  },
+  {
+    "id": 35,
+    "nome_site": "Rei de Taças",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rei_de_Ta%C3%A7as",
+    "palavras_chave": [
+      "confiança",
+      "proteção",
+      "domínio emocional",
+      "generosidade",
+      "conselheiro",
+      "prosperidade",
+      "diplomacia",
+      "lealdade"
+    ],
+    "resumo": "Representa a renúncia à vontade pessoal para se abrir com confiança ao Universo. É o homem maduro, bondoso e protetor, mestre das emoções.",
+    "sentido_direto": "No plano mental, segurança no julgamento; no anímico, amor expandido e reconfortante e proteção psíquica; no físico, abundância, negócios fortes, prosperidade e importância social. A cartomancia descreve um homem poderoso, amigo fiel, chefe ou homem honesto e afetuoso, e para uma mulher um casamento rico. Os tarólogos falam de lealdade, cuidado, perfil de conselheiro e diplomata, domínio do medo e da paixão e força sob uma superfície calma; Waite alerta para a animosidade de um homem de posição e para a hipocrisia.",
+    "sentido_invertido": "Abatimento, dificuldade de se desembaraçar e demora para alcançar objetivos. Na cartomancia, obstáculos para proteger o consulente, hostilidade de um homem ou avareza.",
+    "correspondencias": [
+      "Árvore da Vida: Hochma (Árvore da Água)",
+      "Signos: intersecção de Aquário e Peixes",
+      "Crowley: parte fogosa da Água"
+    ]
+  },
+  {
+    "id": 36,
+    "nome_site": "Ás de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/%C3%81s_de_Moedas",
+    "palavras_chave": [
+      "prosperidade",
+      "conforto material",
+      "novo começo",
+      "riqueza",
+      "segurança",
+      "produtividade",
+      "oportunidade",
+      "saúde vigorosa"
+    ],
+    "resumo": "Representa a fonte da atividade em todos os planos e o desejo de concretizar obras completas no mundo material. É vista como sinal de prosperidade, conforto material e início de um novo caminho com bases sólidas.",
+    "sentido_direto": "No plano mental indica contribuição ativa, equilibrada e realizadora; no anímico, brilho pessoal e crescimento; no físico, oportunidades, lucros ampliados, sucesso e saúde vigorosa. Na cartomancia aponta contentamento, felicidade, inteligência ágil e recursos materiais. Os autores falam em semente do elemento Terra, dádiva de riqueza e proteção, novos começos em moradia, trabalho ou finanças e a materialização de ideias com estabilidade; Waite a considera a carta mais favorável do baralho.",
+    "sentido_invertido": "O lado negativo é o mau uso da riqueza, inteligência limitada e corrupção pelas posses; Pollack fala também em perda da proteção. Ainda assim, segundo Waite, mesmo invertida a carta mantém acesso a tesouros.",
+    "correspondencias": [
+      "Árvore da Vida: Kether (na Árvore da Terra)",
+      "Elemento: Fogo em Terra",
+      "Regência: Plutão e Netuno"
+    ]
+  },
+  {
+    "id": 37,
+    "nome_site": "Dois de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dois_de_Moedas",
+    "palavras_chave": [
+      "mudança",
+      "equilíbrio",
+      "adaptabilidade",
+      "malabarismo",
+      "mensagens",
+      "flexibilidade",
+      "dualidade",
+      "diversão"
+    ],
+    "resumo": "Representa uma iluminação interior que estimula a inteligência para realizações futuras. Os autores a associam sobretudo à mudança constante e à habilidade de equilibrar várias questões materiais ao mesmo tempo.",
+    "sentido_direto": "No plano mental traz inspiração que gera ideias e soluções; no anímico facilita a aproximação entre pessoas; no físico dá confiança sutil, como a fé, que favorece a realização. Na cartomancia indica alegria, recreação, notícias e mensagens escritas, mas também obstáculos, agitação e intrigas. Crowley a chama de 'Senhor da Mudança' (Júpiter em Capricórnio); outros autores falam em lidar com duas situações ao mesmo tempo, flexibilidade financeira e problemas mais imaginários que reais.",
+    "sentido_invertido": "A página não traz um 'reverso' próprio; a cartomancia lista como sentido negativo alegria forçada, prazer simulado e assuntos de escrita e letras de câmbio.",
+    "correspondencias": [
+      "Árvore da Vida: Hochma (na Árvore da Terra)",
+      "Elemento: Fogo em Terra",
+      "Regência: Urano e Netuno",
+      "Astrologia: Júpiter em Capricórnio"
+    ]
+  },
+  {
+    "id": 38,
+    "nome_site": "Três de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Tr%C3%AAs_de_Moedas",
+    "palavras_chave": [
+      "trabalho",
+      "ofício",
+      "habilidade",
+      "cooperação",
+      "reconhecimento",
+      "dedicação",
+      "construção",
+      "maestria"
+    ],
+    "resumo": "Indica expansão mental por meio de um trabalho construtivo e regenerador. É a carta do ofício e do trabalho especializado, que traz reconhecimento e ganhos pelo esforço.",
+    "sentido_direto": "No plano mental liga-se a grandes intuições e ao conhecimento; no anímico, a confiança e misticismo ativo; no físico, autoconfiança nos empreendimentos e saúde normal, com possível instabilidade nervosa. Na cartomancia significa profissão, trabalho especializado, renome e fortuna obtida pelo trabalho e pelo talento. Crowley a chama de 'Senhor do Trabalho' (Marte em Capricórnio); os demais autores destacam o artesão, o trabalho em equipe, a persistência e a base pronta recebendo os toques finais.",
+    "sentido_invertido": "O reverso indica abatimento e adiamentos; na cartomancia, mediocridade no trabalho, imaturidade, mesquinhez e fraqueza.",
+    "correspondencias": [
+      "Árvore da Vida: Binah (na Árvore da Terra)",
+      "Elemento: Fogo em Terra",
+      "Regência: Saturno",
+      "Astrologia: Marte em Capricórnio"
+    ]
+  },
+  {
+    "id": 39,
+    "nome_site": "Quatro de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Quatro_de_Moedas",
+    "palavras_chave": [
+      "poder",
+      "posse",
+      "segurança",
+      "herança",
+      "estabilidade",
+      "apego",
+      "avareza",
+      "força realizadora"
+    ],
+    "resumo": "Simboliza o ideal interior que orienta as ações em todos os planos e dá força realizadora. Na leitura comum, fala de segurança da posse e fortuna estável, mas também de apego excessivo ao que se tem.",
+    "sentido_direto": "No plano mental indica inteligências organizadoras capazes de grandes realizações; no anímico, realização impessoal e serviço à coletividade; no físico, negócios de grande repercussão, boa saúde e longevidade. Na cartomancia significa posse segura, legado, herança, presentes e riqueza estável. Crowley a chama de 'Senhor do Poder' (Sol em Capricórnio), poder que estabiliza de forma pacífica; outros autores alertam para possessividade, egoísmo, avareza e fechamento ao mundo exterior.",
+    "sentido_invertido": "Não há seção de reverso; a cartomancia marca como negativo suspensão, retardamento e oposição.",
+    "correspondencias": [
+      "Árvore da Vida: Chesed (na Árvore da Terra)",
+      "Elemento: Água em Terra",
+      "Regência: Júpiter",
+      "Astrologia: Sol em Capricórnio"
+    ]
+  },
+  {
+    "id": 40,
+    "nome_site": "Cinco de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cinco_de_Moedas",
+    "palavras_chave": [
+      "preocupação",
+      "dificuldade material",
+      "pobreza",
+      "exclusão",
+      "ansiedade",
+      "insegurança",
+      "afinidade",
+      "ajuste"
+    ],
+    "resumo": "Na cartomancia anuncia principalmente contratempos materiais, preocupação e sensação de exclusão. A descrição por níveis da página, porém, é mais favorável, falando de ganhos e afinidades.",
+    "sentido_direto": "No plano mental indica ganhos em movimento e projetos tomando forma; no anímico, afinidades que podem levar a parcerias e casamento; no físico, lucro garantido e segurança quanto à saúde. Alguns cartomantes a veem como carta de amor e afinidade. Crowley a chama de 'Senhor da Preocupação' (Mercúrio em Touro); a maioria dos autores fala em pobreza, ansiedade com dinheiro, saúde ou moradia, abandono e tempos difíceis, sugerindo recuar, reorganizar e abrir-se a novas possibilidades.",
+    "sentido_invertido": "O reverso indica redução do impulso, sem impedir a realização dos propósitos; na cartomancia, invertida significa desordem, caos, ruína, discórdia e devassidão.",
+    "correspondencias": [
+      "Árvore da Vida: Geburah (na Árvore da Terra)",
+      "Elemento: Água em Terra",
+      "Regência: Marte",
+      "Astrologia: Mercúrio em Touro"
+    ]
+  },
+  {
+    "id": 41,
+    "nome_site": "Seis de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Seis_de_Moedas",
+    "palavras_chave": [
+      "generosidade",
+      "partilha",
+      "caridade",
+      "presentes",
+      "sucesso",
+      "equilíbrio",
+      "sacrifício",
+      "prosperidade"
+    ],
+    "resumo": "Representa o aperfeiçoamento interior obtido ao conciliar as forças de cima com as de baixo, gerando equilíbrio nas realizações. Liga-se à generosidade, ao compartilhar e à prosperidade presente.",
+    "sentido_direto": "No plano mental pede esforço ou sacrifício para o sucesso; no anímico, abnegação afetiva; no físico, negócios que prosperam com sacrifício, com alerta para a saúde por excesso de envolvimento material. Na cartomancia indica presentes, gratificações, momento favorável e prosperidade. Crowley a chama de 'Senhor do Sucesso' (Lua em Touro); os autores falam em dar e receber, caridade, dívida que será paga e ajuda financeira, alertando para codependência, dominação ou generosidade mal direcionada.",
+    "sentido_invertido": "Não há seção de reverso; a cartomancia lista como negativo desejo excessivo, cobiça, inveja, ciúme e ilusão, além de risco de perder bens por falsos amigos.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet (na Árvore da Terra)",
+      "Elemento: Água em Terra",
+      "Regência: Sol",
+      "Astrologia: Lua em Touro"
+    ]
+  },
+  {
+    "id": 42,
+    "nome_site": "Sete de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Sete_de_Moedas",
+    "palavras_chave": [
+      "paciência",
+      "espera",
+      "avaliação",
+      "crescimento",
+      "dinheiro",
+      "negócios",
+      "derrota",
+      "pausa"
+    ],
+    "resumo": "Indica um estímulo à ação e às decisões necessárias para mudar, por esforço próprio, uma situação instável. Muitos autores a leem como pausa para avaliar resultados e esperar a colheita com paciência.",
+    "sentido_direto": "No plano mental traz grande atividade intelectual e facilidade de organizar ideias; no anímico, sentimentos vibrantes capazes de atingir as massas; no físico, grandes empreendimentos e boa saúde. Na cartomancia é carta de dinheiro, negócios, trocas e fortuna pelo trabalho, com sentidos contraditórios (inocência, mas também brigas). Crowley a chama de 'Senhor da Derrota' (Saturno em Touro), de passividade extrema; outros falam em esperar os frutos, avaliar o que foi feito e não apressar o processo.",
+    "sentido_invertido": "O reverso indica lentidão e entorpecimento que podem levar à paralisação e ao fracasso; na cartomancia, ansiedade com dinheiro que alguém queira emprestar.",
+    "correspondencias": [
+      "Árvore da Vida: Netzach (na Árvore da Terra)",
+      "Elemento: Ar em Terra",
+      "Regência: Vênus",
+      "Astrologia: Saturno em Touro"
+    ]
+  },
+  {
+    "id": 43,
+    "nome_site": "Oito de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Oito_de_Moedas",
+    "palavras_chave": [
+      "aprendizado",
+      "habilidade",
+      "disciplina",
+      "prudência",
+      "trabalho",
+      "artesanato",
+      "perseverança",
+      "preparação"
+    ],
+    "resumo": "Simboliza a compreensão de quem compara o que está em cima com o que está embaixo e age do conhecido para o desconhecido, recebendo na medida em que dá. É a carta do trabalho, do ofício e do aperfeiçoamento de uma habilidade.",
+    "sentido_direto": "No plano mental exige esforço proporcional ao resultado; no anímico traz segurança ligada mais à amizade que ao amor; no físico, trocas proporcionais e bom andamento comercial. Na cartomancia significa trabalho, emprego, encargo e habilidade em ofícios e negócios, talvez em fase preparatória. Crowley a chama de 'Senhor da Prudência' (Sol em Virgem); os demais autores destacam disciplina, prática, perseverança e transformar talento em profissão.",
+    "sentido_invertido": "O reverso indica perturbações no andamento dos projetos; na cartomancia, ambição frustrada, vaidade, avidez, usura e habilidade usada para intriga.",
+    "correspondencias": [
+      "Árvore da Vida: Hod (na Árvore da Terra)",
+      "Elemento: Ar em Terra",
+      "Regência: Mercúrio",
+      "Astrologia: Sol em Virgem"
+    ]
+  },
+  {
+    "id": 44,
+    "nome_site": "Nove de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Nove_de_Moedas",
+    "palavras_chave": [
+      "ganho",
+      "bem-estar material",
+      "prudência",
+      "sucesso",
+      "realização",
+      "discernimento",
+      "colheita",
+      "autossuficiência"
+    ],
+    "resumo": "Representa um trabalho amplo, altruísta e equilibrado, voltado à união do ser humano com o mundo. Na leitura comum, indica ganho material, bem-estar e sucesso fruto do próprio esforço.",
+    "sentido_direto": "No plano mental indica conhecimentos amplos e abertura à filosofia; no anímico, sentimentos ricos e possíveis paixões à primeira vista; no físico, empreendimentos lucrativos e boa vitalidade. Na cartomancia significa prudência, segurança, sucesso, realização e discernimento, com possível pequeno atraso que não impede o êxito. Crowley a chama de 'Senhor do Ganho' (Vênus em Virgem); outros autores falam em colheita, conforto, prazer de estar bem sozinho e paz de espírito após trabalho árduo.",
+    "sentido_invertido": "O reverso indica leve desânimo; na cartomancia, engano, decepção, projetos infrutíferos e má-fé.",
+    "correspondencias": [
+      "Árvore da Vida: Yesod (na Árvore da Terra)",
+      "Elemento: Ar em Terra",
+      "Regência: Lua",
+      "Astrologia: Vênus em Virgem"
+    ]
+  },
+  {
+    "id": 45,
+    "nome_site": "Dez de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dez_de_Moedas",
+    "palavras_chave": [
+      "riqueza",
+      "família",
+      "lar",
+      "herança",
+      "tradição",
+      "estabilidade",
+      "abundância",
+      "prosperidade"
+    ],
+    "resumo": "Simboliza uma totalização harmoniosa que permite compreender a essência das coisas e organizá-las em benefício de outros. É a carta da riqueza consolidada, da família, do lar e das tradições.",
+    "sentido_direto": "No plano mental indica espírito sábio, conhecedor dos princípios da matéria; no anímico, amor pelas grandes causas; no físico, saúde, beleza e empreendimentos coletivos ligados a estudo e pesquisa. Na cartomancia significa lucros, riquezas, assuntos de família, casa, imóveis, heranças e dotes. Crowley a chama de 'Senhor da Riqueza' (Mercúrio em Virgem), a solidificação final; outros falam em estruturas duradouras, pertencimento e segurança estável, às vezes pouco estimulante.",
+    "sentido_invertido": "Não há seção de reverso; a cartomancia lista como negativo fatalidade, perda, roubo e jogos de azar.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth (na Árvore da Terra)",
+      "Elemento: Terra em Terra",
+      "Astrologia: Mercúrio em Virgem"
+    ]
+  },
+  {
+    "id": 46,
+    "nome_site": "Princesa de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Princesa_de_Moedas",
+    "palavras_chave": [
+      "estudo",
+      "aprendizado",
+      "dedicação",
+      "praticidade",
+      "mensagens",
+      "novos projetos",
+      "concentração",
+      "gestação"
+    ],
+    "resumo": "Trata da realização de projetos concebidos em harmonia entre o plano espiritual e o material, avaliando os recursos disponíveis para executá-los. Muitos autores a veem como a estudante dedicada e o surgimento de novas ideias e projetos.",
+    "sentido_direto": "No plano mental indica inteligência prática para escolher os meios certos; no anímico, discernimento para alcançar objetivos; no físico, equilíbrio nos negócios e na saúde. Na cartomancia pode trazer mensagens e notícias favoráveis sobre dinheiro, trabalho e dedicação, mas também representar figuras jovens pouco confiáveis. Os autores falam em estudante absorto, seriedade no aprendizado, gravidez de ideias e oportunidade de ganho começando por baixo.",
+    "sentido_invertido": "O reverso indica falta de conexão e ação improdutiva; na cartomancia, inconsequência.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth",
+      "Signos: Capricórnio, Virgem e Touro"
+    ]
+  },
+  {
+    "id": 47,
+    "nome_site": "Cavaleiro de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cavaleiro_de_Moedas",
+    "palavras_chave": [
+      "persistência",
+      "responsabilidade",
+      "paciência",
+      "método",
+      "confiabilidade",
+      "praticidade",
+      "lentidão",
+      "estabilidade"
+    ],
+    "resumo": "Representa a condução calma das energias práticas e mentais para construir uma obra sólida e durável. É a figura confiável, metódica e paciente que leva as tarefas até o fim.",
+    "sentido_direto": "No plano mental indica inteligência para construir na matéria; no anímico, afetos calmos e estáveis; no físico, solução de problemas de negócios, boa saúde e cura assegurada. Na cartomancia representa pessoa madura e responsável, marido ou namorado, ganhos, paz e êxito após grandes lutas, mas também pode indicar estagnação e preguiça. Os autores (Crowley o liga ao 'Ar da Terra') destacam perseverança, trabalho constante rumo a metas claras e resultado positivo após longa espera, com risco de teimosia e excesso de foco no prático.",
+    "sentido_invertido": "O reverso indica impedimentos na ação; na cartomancia, alguém enganador.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet (na Árvore da Terra)",
+      "Crowley: Ar da Terra",
+      "Signos: Áries e Touro (21° Áries a 20° Touro)"
+    ]
+  },
+  {
+    "id": 48,
+    "nome_site": "Rainha de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rainha_de_Moedas",
+    "palavras_chave": [
+      "cuidado",
+      "maternidade",
+      "generosidade",
+      "praticidade",
+      "abundância",
+      "segurança",
+      "saúde",
+      "fertilidade"
+    ],
+    "resumo": "Representa o trabalho intuitivo que antecede qualquer construção ou troca, para que se realize da melhor forma. É a figura maternal, prática e generosa, ligada à abundância e ao cuidado com o corpo.",
+    "sentido_direto": "No plano mental indica confiança de sucesso em assuntos práticos; no anímico, afeto sólido e conforto; no físico, boa saúde, recuperação garantida e negócios racionais. Na cartomancia representa uma boa mulher, mãe honrada ou amiga fiel, opulência, segurança e casamento próspero. Crowley a liga à 'Água da Terra', função maternal da Terra; os outros autores falam em amor pela natureza, competência prática, fertilidade e a carta como 'resposta às preces'.",
+    "sentido_invertido": "O reverso indica embaraços, confusão e dificuldade para sair de situações difíceis; na cartomancia, oposição ou desconfiança de uma mulher, superproteção ou falta de autoconfiança.",
+    "correspondencias": [
+      "Árvore da Vida: Binah (na Árvore da Terra)",
+      "Crowley: Água da Terra",
+      "Signos: Sagitário e Capricórnio (21° Sagitário a 20° Capricórnio)"
+    ]
+  },
+  {
+    "id": 49,
+    "nome_site": "Rei de Moedas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rei_de_Moedas",
+    "palavras_chave": [
+      "sucesso material",
+      "domínio",
+      "praticidade",
+      "negócios",
+      "estabilidade",
+      "provedor",
+      "realização",
+      "paciência"
+    ],
+    "resumo": "Representa o domínio das construções e realizações materiais por meio da ciência e do conhecimento prático. É o homem bem-sucedido, prático e provedor, que conquistou estabilidade.",
+    "sentido_direto": "No plano mental indica inteligência forte e perspicaz; no anímico, neutralidade afetiva com apoio material; no físico, negócios variados e muitos ativos, com possíveis conflitos de temperamento na saúde. Na cartomancia pode ser figura paterna leal e poderosa ou proteção de um homem rico, mas também um adversário hipócrita. Crowley o vê como a 'parte fogosa da Terra', paciente e apegado ao material, porém teimoso; os demais destacam sucesso consolidado, habilidade nos negócios, confiabilidade e segurança.",
+    "sentido_invertido": "O reverso indica desordem extrema, falência, falta de escrúpulos e imaginação voltada à desonestidade; na cartomancia, vício ou alguém bem-intencionado mas ineficaz.",
+    "correspondencias": [
+      "Árvore da Vida: Hochma (na Árvore da Terra)",
+      "Crowley: parte fogosa da Terra",
+      "Signos: Leão e Virgem (21° Leão a 20° Virgem)"
+    ]
+  },
+  {
+    "id": 50,
+    "nome_site": "Ás de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/%C3%81s_de_Espadas",
+    "palavras_chave": [
+      "triunfo",
+      "conquista",
+      "vitória pela força",
+      "clareza mental",
+      "lucidez",
+      "novo começo",
+      "força",
+      "excesso"
+    ],
+    "resumo": "Energia ativa que a pessoa desenvolve com firmeza e entendimento para alcançar seu ideal. É a raiz da força do Ar: clareza intelectual, nova ideia e mudança intensa, que pode trazer grande prosperidade ou grande miséria.",
+    "sentido_direto": "No plano mental traz clareza, precisão e lucidez; no anímico há pouco sentimentalismo, com a emoção apoiada na fé ou em convicções profundas; no físico indica boa saúde, progresso gradual e recuperação da energia nervosa. Na cartomancia significa triunfo, excesso e conquista pela força, forte no amor e no ódio, além de concepção e crescimento. Os autores destacam o início de um processo intelectual, a solução de um problema, força diante da adversidade e mudança que nasce de dentro.",
+    "sentido_invertido": "Preguiça mental, descuido, falta de energia e fraqueza. Na cartomancia, vitória com resultados desastrosos, possível violência e interrupção abrupta de algo.",
+    "correspondencias": [
+      "Árvore da Vida: Kether, na Árvore do Ar",
+      "Elemento: Fogo em Ar",
+      "Regência: Plutão e Netuno"
+    ]
+  },
+  {
+    "id": 51,
+    "nome_site": "Dois de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dois_de_Espadas",
+    "palavras_chave": [
+      "pausa",
+      "equilíbrio",
+      "paz",
+      "impasse",
+      "trégua",
+      "concórdia",
+      "dúvida",
+      "procrastinação"
+    ],
+    "resumo": "Interrupção de uma ação concreta, uma pausa que serve para amadurecer o empreendimento e enriquecê-lo depois. Fala de uma paz relativa e de um equilíbrio frágil entre forças opostas.",
+    "sentido_direto": "No plano mental, equilíbrio estático e inatividade; no anímico, riqueza de sentimentos em potencial; no físico, negócios frustrados, obstáculos e prostração (associado a hipertensão e circulação lenta). Na cartomancia indica harmonia, coragem, amizade e concórdia em meio ao conflito, ternura e afeição, mas também, no sentido negativo, falsidade e duplicidade. Os autores falam de paz de espírito, impasse, emoções bloqueadas, negação dos problemas e descanso antes de uma mudança inevitável.",
+    "sentido_invertido": null,
+    "correspondencias": [
+      "Árvore da Vida: Hochma, na Árvore do Ar",
+      "Elemento: Fogo em Ar (regido por Urano e Netuno)",
+      "Planeta/signo: Lua em Libra"
+    ]
+  },
+  {
+    "id": 52,
+    "nome_site": "Três de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Tr%C3%AAs_de_Espadas",
+    "palavras_chave": [
+      "separação",
+      "rompimento",
+      "pesar",
+      "coração partido",
+      "ausência",
+      "atraso",
+      "dispersão",
+      "decisão"
+    ],
+    "resumo": "Carta da consciência ativa que orienta ações precisas. Na leitura tradicional, porém, é a carta do pesar: separação, ruptura e dor emocional que podem levar à compreensão.",
+    "sentido_direto": "No plano mental traz decisão e afasta hesitações; no anímico, desprendimento e clareza nos sentimentos; no físico, aporte de energia, evolução nos negócios e boa saúde. Na cartomancia significa afastamento, ausência, demora, separação, rompimento e dispersão, além de conflitos e desgostos. Os autores falam de mágoa amorosa, relações triangulares, tristeza universal (Crowley, 'Senhor do Pesar') e de um sofrimento interior que pode trazer clareza e realização.",
+    "sentido_invertido": "Na saúde, obstáculos e demora na cura. Na cartomancia, alienação mental, erros, perdas, distração, desordem e confusão.",
+    "correspondencias": [
+      "Árvore da Vida: Binah, na Árvore do Ar",
+      "Elemento: Fogo em Ar",
+      "Planeta/signo: Saturno em Libra"
+    ]
+  },
+  {
+    "id": 53,
+    "nome_site": "Quatro de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Quatro_de_Espadas",
+    "palavras_chave": [
+      "descanso",
+      "recolhimento",
+      "retiro",
+      "trégua",
+      "vigilância",
+      "recuperação",
+      "solidão",
+      "cautela"
+    ],
+    "resumo": "Alegria e entusiasmo interior que nascem do trabalho e da atividade construtiva. Tradicionalmente indica recolhimento, descanso e trégua após a luta, para se proteger e se recuperar.",
+    "sentido_direto": "No plano mental, fluidez e riqueza de ideias; no anímico, sentimentos seguros e profundos e união tranquila; no físico, capacidade de criar, organizar e concretizar, com assuntos ricos em espiritualidade. Na cartomancia indica solidão, retiro, segurança, vigilância, economia e boa administração, às vezes afastamento social após desgostos, cautela, avareza e testamento. Os autores falam de descanso após a luta, espaço mental protegido para refletir, isolamento que gera percepção e, para Crowley, autoridade intelectual, dogma e lei.",
+    "sentido_invertido": "Desgosto, depressão e tristeza, com um sentimento que perde força e se apaga. Para Waite, invertida pode trazer sucesso pela boa gestão dos negócios.",
+    "correspondencias": [
+      "Árvore da Vida: Chesed, na Árvore do Ar",
+      "Elemento: Água em Ar (regido por Júpiter)",
+      "Planeta/signo: Júpiter em Libra"
+    ]
+  },
+  {
+    "id": 54,
+    "nome_site": "Cinco de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cinco_de_Espadas",
+    "palavras_chave": [
+      "derrota",
+      "perda",
+      "desonra",
+      "degradação",
+      "decisão",
+      "humilhação",
+      "engano",
+      "vitória vazia"
+    ],
+    "resumo": "Decisão tomada para pôr fim às dificuldades causadas pela estagnação material. Na leitura tradicional é a carta da derrota, da perda e da desonra, muitas vezes ligada a pensamentos derrotistas.",
+    "sentido_direto": "No plano mental, pensamento instintivo e claro e capacidade de decidir; no anímico, tendência a intelectualizar problemas psicológicos e necessidade de esforço em vez de passividade; no físico, caminho para o sucesso e domínio dos acontecimentos. Na cartomancia significa degradação, destruição, infâmia, perda, roubo, engano, desperdício, ideias fixas e vingança. Os autores falam de derrota acompanhada de humilhação, vitória vazia por meios injustos, medo de fracassar, necessidade de aceitar limites e, para Crowley, 'Senhor da Derrota', ruptura por fraqueza.",
+    "sentido_invertido": "Teimosia, lentidão e obstáculos, com negócios difíceis de gerir e interrupções sérias.",
+    "correspondencias": [
+      "Árvore da Vida: Geburah, na Árvore do Ar",
+      "Elemento: Água em Ar (regido por Marte)",
+      "Planeta/signo: Vênus em Aquário"
+    ]
+  },
+  {
+    "id": 55,
+    "nome_site": "Seis de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Seis_de_Espadas",
+    "palavras_chave": [
+      "viagem",
+      "travessia",
+      "transição",
+      "perspectiva",
+      "mensageiro",
+      "equilíbrio mental",
+      "afastamento das dificuldades",
+      "ideias criativas"
+    ],
+    "resumo": "Atividade mental que o ser humano dirige para organizar e conciliar as forças materiais. Tradicionalmente indica viagem e travessia, uma transição de tempos difíceis para um estado de paz e segurança.",
+    "sentido_direto": "No plano mental, ideias criativas e renovadoras; no anímico, proteção reconfortante e relações práticas; no físico, gestação, maternidade, negócios equilibrados, harmonia e segurança. Na cartomancia significa viagem por água, caminho, mensageiro, declaração ou confissão (até de amor), mas também indecisão e passagem. Os autores falam de travessia tranquila, distanciamento para ganhar perspectiva, pensamento lógico e analítico e, para Crowley, equilíbrio perfeito das faculdades mentais e morais.",
+    "sentido_invertido": "Desordens materiais, problemas nos negócios, prejuízos e afinidade com a discórdia. Na cartomancia, grandes desgostos por falta de firmeza e iniciativa, embora favoreça viagens e notícias.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet, na Árvore do Ar",
+      "Elemento: Água em Ar (regido pelo Sol)",
+      "Planeta/signo: Mercúrio em Aquário"
+    ]
+  },
+  {
+    "id": 56,
+    "nome_site": "Sete de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Sete_de_Espadas",
+    "palavras_chave": [
+      "tentativa",
+      "esperança",
+      "estratégia",
+      "evasão",
+      "prudência",
+      "vacilação",
+      "esforço inútil",
+      "plano"
+    ],
+    "resumo": "Provação pela qual o ser humano precisa passar para adquirir o conhecimento necessário à compreensão de seu sentido interior. Envolve planos, estratégias e tentativas que podem dar certo ou falhar.",
+    "sentido_direto": "No plano mental, compreensão, ideias claras e julgamento equilibrado; no anímico, harmonia, altruísmo e concordância; no físico, encaminhamento harmonioso e bons resultados. Na cartomancia indica intenção, tentativa, desejo, esperança e bom conselho, mas também briga, plano que pode falhar e, como alerta, quedas inesperadas e falsas esperanças. Os autores falam de estratégia mental, astúcia e evasão do confronto, prudência no lugar da força, e também de autoengano, futilidade e esforço inútil (Crowley).",
+    "sentido_invertido": "Depressão, dúvidas, falta de inspiração e tentativas tímidas de libertação. Na cartomancia, calúnia e tagarelice.",
+    "correspondencias": [
+      "Árvore da Vida: Netzach, na Árvore do Ar",
+      "Elemento: Ar em Ar (regido por Vênus)",
+      "Planeta/signo: Lua em Aquário"
+    ]
+  },
+  {
+    "id": 57,
+    "nome_site": "Oito de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Oito_de_Espadas",
+    "palavras_chave": [
+      "interferência",
+      "aprisionamento mental",
+      "indecisão",
+      "más notícias",
+      "crise",
+      "obstáculos",
+      "confusão",
+      "libertação"
+    ],
+    "resumo": "Libertação do ser humano por uma evolução interior fruto de sua atividade mental, como recompensa do destino. Na leitura tradicional, indica crise, más notícias e a sensação de estar preso por obstáculos, muitas vezes criados pela própria mente.",
+    "sentido_direto": "No plano mental, elevação do espírito e impulso místico; no anímico, desinteresse pessoal e amor voltado às massas; no físico, estabilidade com resultados mais espirituais do que materiais. Na cartomancia significa más notícias, aborrecimentos, crises, censura, conflitos, calúnia, doença e imprevistos. Os autores falam de interferência e análise excessiva, prisão em crenças e indecisão ('Senhor da Interferência', Crowley), crise temporária e o primeiro passo para sair de uma situação opressiva.",
+    "sentido_invertido": "Estagnação causada por uma posição já alcançada, que precisa ser rompida para avançar em outras direções.",
+    "correspondencias": [
+      "Árvore da Vida: Hod, na Árvore do Ar",
+      "Elemento: Ar em Ar (regente: Mercúrio)",
+      "Planeta/signo: Júpiter em Gêmeos"
+    ]
+  },
+  {
+    "id": 58,
+    "nome_site": "Nove de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Nove_de_Espadas",
+    "palavras_chave": [
+      "desespero",
+      "angústia",
+      "pesadelo",
+      "crueldade",
+      "decepção",
+      "atraso",
+      "dúvida",
+      "culpa"
+    ],
+    "resumo": "Necessidade de um trabalho persistente para se libertar de uma estabilidade aparente e enganosa que travaria a evolução. Tradicionalmente é carta de mau augúrio: desespero, angústia e temores que muitas vezes vêm da própria mente.",
+    "sentido_direto": "No plano mental, atividade, clareza e inspiração intelectual; no anímico, amor iluminado pela inteligência; no físico, negócios bem conduzidos. Na cartomancia significa morte, fracasso, atraso, decepção, desespero, suspeita e vergonha, além de doença grave e inimizades poderosas, pedindo prudência e discrição. Os autores falam de pensamentos que deprimem, pesadelos, culpa e luto, medo maior que o real ('Senhor da Crueldade', Crowley), mas também de chance de romper esse padrão.",
+    "sentido_invertido": "Julgamento falso e a pretensão de saber julgar.",
+    "correspondencias": [
+      "Árvore da Vida: Yesod, na Árvore do Ar",
+      "Elemento: Ar (regido pela Lua)",
+      "Planeta/signo: Marte em Gêmeos"
+    ]
+  },
+  {
+    "id": 59,
+    "nome_site": "Dez de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dez_de_Espadas",
+    "palavras_chave": [
+      "opressão",
+      "sofrimento",
+      "aflição",
+      "fardo",
+      "fim de um problema",
+      "responsabilidade",
+      "tristeza",
+      "autoridade"
+    ],
+    "resumo": "Senso anímico de quem equilibra suas experiências, age com discernimento e cria laços afetivos que protegem o que constrói. Na leitura tradicional, porém, representa opressão, sofrimento e fardos, às vezes prestes a terminar.",
+    "sentido_direto": "No plano mental, julgamento justo e humanitário; no anímico, satisfação e amor refinado de caráter místico; no físico, autocontrole e equilíbrio emocional, com negócios favorecidos e saúde pedindo mais apoio nervoso (possível anemia). Na cartomancia significa sofrimento, aflição, choro e tristeza com ganhos passageiros, poder e autoridade, alternância de lucros e perdas. Os autores falam de opressão e força bruta (Crowley), excesso de responsabilidades, traição e falsas aparências, e de um fardo prestes a desaparecer.",
+    "sentido_invertido": "Desordem emocional que distorce o julgamento.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth, na Árvore do Ar",
+      "Elemento: Terra em Ar (regido pela Terra)",
+      "Planeta/signo: Sol em Gêmeos"
+    ]
+  },
+  {
+    "id": 60,
+    "nome_site": "Princesa de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Princesa_de_Espadas",
+    "palavras_chave": [
+      "planejamento",
+      "vigilância",
+      "espião",
+      "observação",
+      "impessoalidade",
+      "lógica",
+      "agilidade",
+      "traição"
+    ],
+    "resumo": "Representa o planejamento e a elaboração mental de quem se prepara para agir, reunindo informações para planos futuros. Como figura, é um jovem alerta e ágil, ligado à vigilância e ao exame, mas que pode ser frio ou traiçoeiro.",
+    "sentido_direto": "No plano mental, acontecimentos em andamento e próximos; no anímico, isenção e impessoalidade; no físico, distanciamento das questões materiais. Na cartomancia indica um jovem moreno (às vezes triste, avarento ou traidor), credor ou viagem, espião ou observador, com traição, cálculo e inimigos ocultos. Os autores falam de perspicácia e abertura à verdade, materialização da ideia e lógica severa (Crowley), postura defensiva, boatos e uma mente curiosa que explora possibilidades.",
+    "sentido_invertido": "Obstruções, impotência e dificuldade de organizar os pensamentos. Na cartomancia, viagem fracassada; para Pollack, pode indicar paranoia e obsessão.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth, na Árvore do Ar",
+      "Elemento: Ar",
+      "Signos: Libra, Gêmeos e Aquário"
+    ]
+  },
+  {
+    "id": 61,
+    "nome_site": "Cavaleiro de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cavaleiro_de_Espadas",
+    "palavras_chave": [
+      "rapidez",
+      "bravura",
+      "ímpeto",
+      "imprevistos",
+      "conflito",
+      "oposição",
+      "impaciência",
+      "intelecto"
+    ],
+    "resumo": "Representa um comando rápido e a prontidão para lidar com imprevistos e reviravoltas do destino. Como figura, é um jovem corajoso e impetuoso, intelectual e combativo, que pode ser imprudente.",
+    "sentido_direto": "No plano mental, clareza nos projetos e solução de imprevistos; no anímico, trocas rápidas e dinâmicas; no físico, realizações inesperadas. Na cartomancia indica bravura, habilidade e ação heroica, mas também antagonismo, inimigos, más notícias, calúnia e imprudência, além de aptidão militar. Os autores falam de mente racional cheia de ideias mas desligada dos fatos (Crowley), foco e coragem com teimosia, pressa excessiva e tendência ao fanatismo.",
+    "sentido_invertido": "Embaraços, aborrecimentos e mudanças repentinas em negócios e empreendimentos.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet, na Árvore do Ar",
+      "Elemento: Ar",
+      "Signos: interseção entre Capricórnio e Aquário"
+    ]
+  },
+  {
+    "id": 62,
+    "nome_site": "Rainha de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rainha_de_Espadas",
+    "palavras_chave": [
+      "intuição",
+      "concentração",
+      "viuvez",
+      "separação",
+      "severidade",
+      "pesar",
+      "independência mental",
+      "julgamento"
+    ],
+    "resumo": "Sugere ouvir a intuição antes de agir; pela concentração surgem percepções sobre o que precisa ser enfrentado. Como figura, é uma mulher severa, inteligente e familiarizada com o pesar, ligada a viuvez e separação.",
+    "sentido_direto": "No plano mental, julgamento baseado na intuição; no anímico, proteção dos sentimentos e percepção das consequências; no físico, pouca ação e mais planejamento, com médicos ou remédios de eficácia duvidosa na saúde. Na cartomancia indica viúva triste, mulher invejosa, ciumenta ou caluniadora, viuvez, divórcio, privação e traição de quem se ama. Os autores falam de observação precisa e individualista (Crowley), inteligência justa mas possivelmente vingativa, sabedoria pela aceitação da dor e equilíbrio das emoções pela razão.",
+    "sentido_invertido": "Injustiças e calúnias.",
+    "correspondencias": [
+      "Árvore da Vida: Binah, na Árvore do Ar",
+      "Elemento: Ar",
+      "Signos: cruzamento entre Virgem e Libra"
+    ]
+  },
+  {
+    "id": 63,
+    "nome_site": "Rei de Espadas",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rei_de_Espadas",
+    "palavras_chave": [
+      "autoridade",
+      "julgamento",
+      "lei",
+      "intelecto",
+      "comando",
+      "justiça",
+      "severidade",
+      "reflexão"
+    ],
+    "resumo": "Representa o sucesso de um homem voltado às atividades intelectuais, sobretudo quando acompanhadas de reflexão. Como figura, é uma autoridade madura e severa, associada à lei, ao julgamento e ao comando.",
+    "sentido_direto": "No plano mental, julgamento equilibrado e profundo e capacidade de encontrar soluções; no anímico, proteção e conforto; no físico, desperta o que estava adormecido, com saúde incerta por desequilíbrios do passado. Na cartomancia indica funcionário hostil, homem moreno de más intenções, falso amigo, pai severo ou rival, mas também acadêmico, juiz, advogado ou médico, com sucesso militar ou na magistratura. Os autores falam de julgamento, comando e lei (Waite), força intelectual intensa que se dispersa diante da oposição (Crowley), firmeza moral, rigidez e comunicação racional.",
+    "sentido_invertido": "Cólera, grosseria e prazeres de baixo nível. Na cartomancia, processo perdido, briga com amigo, dificuldades ou problemas nos negócios.",
+    "correspondencias": [
+      "Árvore da Vida: Hochma, na Árvore do Ar",
+      "Elemento: Ar",
+      "Signos: interseção entre Touro e Gêmeos"
+    ]
+  },
+  {
+    "id": 64,
+    "nome_site": "Ás de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/%C3%81s_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "criação",
+      "início",
+      "energia",
+      "empreendimento",
+      "poder",
+      "virilidade",
+      "herança",
+      "novo começo"
+    ],
+    "resumo": "Representa a energia material entregue ao ser humano, que o fortalece contra choques externos e o impulsiona a construir no plano físico. É a raiz do poder do Fogo, a semente de um novo começo criativo.",
+    "sentido_direto": "No plano mental traz inspiração prática e ideias que ativam um empreendimento; no anímico, sentimentos intensos e expressivos, um tanto exagerados; no físico, negócios dinâmicos, êxito pela força e saúde abundante. Na cartomancia indica criação, invenção, origem, nascimento, família, dinheiro e herança; ao lado do Ás de Ouros ou do Sete de Paus, prosperidade nos negócios. Os tarólogos a leem como novo começo, desejo de crescimento, despertar das paixões e da força de vontade.",
+    "sentido_invertido": "Falta de energia, recomeços constantes e forças que se anulam. Na cartomancia, queda, decadência e ruína, com uma alegria obscurecida.",
+    "correspondencias": [
+      "Árvore da Vida: Kether (Árvore do Fogo)",
+      "Elemento: Fogo",
+      "Regência: Plutão e Netuno"
+    ]
+  },
+  {
+    "id": 65,
+    "nome_site": "Dois de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dois_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "domínio",
+      "potencial",
+      "riqueza",
+      "bom julgamento",
+      "escolha",
+      "autoconfiança",
+      "equilíbrio",
+      "surpresa"
+    ],
+    "resumo": "Simboliza um potencial interior que tende a se expandir. É o domínio pessoal: vontade e poder bem fundamentados, mas ainda à espera de desenvolvimento.",
+    "sentido_direto": "No plano mental indica bom julgamento e ideias sólidas que precisam amadurecer; no anímico, confiança, amizade e bondade simples; no físico, recuperação da saúde e preparação de um empreendimento para sucesso futuro. A cartomancia associa a carta a riqueza, fortuna e magnificência, mas também a surpresa, perturbação e obstáculos imprevistos. Os tarólogos falam em domínio do poder pessoal, escolha sábia entre opostos e afirmação de si, às vezes com realização sem satisfação plena.",
+    "sentido_invertido": null,
+    "correspondencias": [
+      "Árvore da Vida: Hochma (Árvore do Fogo)",
+      "Elemento: Fogo em Fogo",
+      "Regência: Urano e Netuno",
+      "Marte em Áries"
+    ]
+  },
+  {
+    "id": 66,
+    "nome_site": "Três de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Tr%C3%AAs_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "força consolidada",
+      "empreendimento",
+      "comércio",
+      "cooperação",
+      "discernimento",
+      "virtude",
+      "planejamento",
+      "destino"
+    ],
+    "resumo": "Indica a energia necessária para reconhecer as próprias resistências e discipliná-las, usando-as como base para trabalhos futuros. É a força estabelecida que começa a render frutos.",
+    "sentido_direto": "No plano mental traz discernimento e intuição para desvendar assuntos complexos; no anímico, atividade excessiva que afasta a sensibilidade e o afeto; no físico, negócios ativos, direção com autoridade e saúde boa, porém nervosa. Na cartomancia representa empreendimentos, comércio, cooperação eficaz, fim de adversidades e início de êxitos e descobertas. Os tarólogos destacam integridade, colocar ideias em prática, visão de longo alcance e esforço recompensado.",
+    "sentido_invertido": null,
+    "correspondencias": [
+      "Árvore da Vida: Binah (Árvore do Fogo)",
+      "Elemento: Fogo",
+      "Regência: Saturno",
+      "Sol em Áries"
+    ]
+  },
+  {
+    "id": 67,
+    "nome_site": "Quatro de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Quatro_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "conclusão",
+      "celebração",
+      "harmonia",
+      "prosperidade",
+      "lar",
+      "descanso",
+      "contrato",
+      "segurança"
+    ],
+    "resumo": "Representa o trabalho produtivo que, por meio da energia material, alcança seus objetivos. É a conclusão bem-sucedida de uma etapa, com celebração e segurança.",
+    "sentido_direto": "No plano mental indica decisão e autoridade para julgar; no anímico, proteção, segurança afetiva e fraternidade; no físico, conclusão de empreendimentos e boa saúde. A cartomancia associa a carta à vida no campo, refúgio, festa da colheita, harmonia, prosperidade, associação e contratos. Os tarólogos a veem como recompensa após o esforço, rito de passagem e pausa para descanso antes de um novo começo.",
+    "sentido_invertido": "Confusão, hesitação e promessas inadequadas.",
+    "correspondencias": [
+      "Árvore da Vida: Chesed (Árvore do Fogo)",
+      "Elemento: Água em Fogo",
+      "Regência: Júpiter",
+      "Vênus em Áries"
+    ]
+  },
+  {
+    "id": 68,
+    "nome_site": "Cinco de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cinco_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "rivalidade",
+      "competição",
+      "luta",
+      "disputa",
+      "livre-arbítrio",
+      "conflito",
+      "riqueza",
+      "dominação"
+    ],
+    "resumo": "Afirma o livre-arbítrio humano para não se acomodar às pressões do mundo material e buscar planos mais sutis. É a carta da rivalidade e da luta, real ou simulada.",
+    "sentido_direto": "No plano mental indica espírito decidido, com risco de autoritarismo; no anímico, sentimento protetor mas dominador e individualista; no físico, sucesso em bases sólidas, negócios de grande alcance e energia vital em excesso. Na cartomancia significa combate simulado, competição intensa e luta pela riqueza, favorável se o consulente evitar cólera e orgulho. Os tarólogos falam em conflitos e atritos que testam ideias, confusão mental e necessidade de abandonar o que ficou obsoleto.",
+    "sentido_invertido": "A página não tem seção de reverso; os sentidos negativos indicados são litígio, disputas, impostura e contradição.",
+    "correspondencias": [
+      "Árvore da Vida: Geburah (Árvore do Fogo)",
+      "Elemento: Água em Fogo",
+      "Regência: Marte",
+      "Saturno em Leão"
+    ]
+  },
+  {
+    "id": 69,
+    "nome_site": "Seis de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Seis_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "vitória",
+      "triunfo",
+      "boas notícias",
+      "reconhecimento",
+      "esperança realizada",
+      "confiança",
+      "equilíbrio",
+      "liderança"
+    ],
+    "resumo": "Representa o esforço humano para disciplinar os instintos e assim garantir segurança futura. É a carta da vitória e da esperança coroada.",
+    "sentido_direto": "No plano mental traz capacidade de inventar e concretizar projetos; no anímico, amor profundo e renascimento, como a ave que ressurge das cinzas; no físico, desenvolvimento contínuo porém lento e boa saúde, às vezes com apatia. Na cartomancia indica o vencedor em triunfo, boas notícias e expectativa realizada, embora também possa apontar obstáculos e atrasos se faltar firmeza. Os tarólogos destacam vitória, reconhecimento, promoção e confiança em si e na liderança.",
+    "sentido_invertido": "Lentidão e risco de desvios. Na cartomancia, apreensão e medo diante de um inimigo vitorioso, traição, deslealdade e atrasos indefinidos.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet (Árvore do Fogo)",
+      "Elemento: Água em Fogo",
+      "Regência: Sol",
+      "Júpiter em Leão"
+    ]
+  },
+  {
+    "id": 70,
+    "nome_site": "Sete de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Sete_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "valor",
+      "coragem",
+      "persistência",
+      "competição",
+      "determinação",
+      "posição vantajosa",
+      "negociação",
+      "desafio"
+    ],
+    "resumo": "Representa a possibilidade de sucesso alcançada pelo esforço, pelo trabalho ativo e pela persistência. É a carta do valor, de quem defende sua posição diante da oposição.",
+    "sentido_direto": "No plano mental indica determinação e poder de decisão; no anímico, grande irradiação, sentimentos expansivos e facilidade de animar os outros; no físico, negócios em plena atividade, bons rendimentos e saúde excelente, com risco de excesso. Na cartomancia é carta de posição vantajosa: discussão no plano intelectual, negociação e concorrência nos negócios, com adversários que não conseguem atingir o consulente. Os tarólogos falam em coragem para correr riscos, manter-se firme diante dos concorrentes e confiar nas próprias convicções.",
+    "sentido_invertido": "Excesso de trabalho. Na cartomancia, perplexidade, embaraço e ansiedade, com alerta contra a indecisão.",
+    "correspondencias": [
+      "Árvore da Vida: Netzach (Árvore do Fogo)",
+      "Elemento: Ar em Fogo",
+      "Regência: Vênus",
+      "Marte em Leão"
+    ]
+  },
+  {
+    "id": 71,
+    "nome_site": "Oito de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Oito_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "velocidade",
+      "movimento",
+      "rapidez",
+      "ação",
+      "viagem",
+      "comunicação",
+      "flechas do amor",
+      "superar a passividade"
+    ],
+    "resumo": "Indica boas condições, fruto de um equilíbrio geral, que favorecem quem vence a acomodação e põe suas energias em ação. É a carta da velocidade e do movimento rumo a um objetivo.",
+    "sentido_direto": "Os níveis apontam o que deve ser superado: abatimento e passividade no mental, apatia e lentidão emocional no anímico, negócios desorganizados mas reorganizáveis e saúde apática no físico. Na cartomancia representa atividade, prontidão e rapidez nos empreendimentos, tudo que está em movimento, as 'flechas do amor' e viagens ligadas a negócios. Os tarólogos destacam alta energia, crescimento rápido, ideias que logo se concretizam e iniciativa após um período de estagnação.",
+    "sentido_invertido": "A página não tem seção de reverso; os sentidos negativos indicados são ciúme, disputas internas, aflições de consciência e brigas domésticas.",
+    "correspondencias": [
+      "Árvore da Vida: Hod (Árvore do Fogo)",
+      "Elemento: Ar em Fogo",
+      "Regência: Mercúrio",
+      "Mercúrio em Sagitário"
+    ]
+  },
+  {
+    "id": 72,
+    "nome_site": "Nove de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Nove_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "força",
+      "resistência",
+      "defesa",
+      "equilíbrio interior",
+      "persistência",
+      "proteção",
+      "atraso",
+      "determinação"
+    ],
+    "resumo": "Representa a pessoa que alcançou equilíbrio interior e o usa para controlar suas energias, sabendo escolher o momento certo de decidir. É a força na oposição.",
+    "sentido_direto": "No plano mental traz julgamento claro e inspiração no uso da energia; no anímico, sentimentos humanitários, devoção e proteção dos outros; no físico, iniciativas criativas, liderança inspiradora e saúde harmoniosa. Na cartomancia indica força diante da oposição, enfrentando ataques com ousadia, mas com possíveis atrasos, suspensões e adiamentos; também dinheiro a receber por trabalho e expectativa de mudança. Os tarólogos falam em força acumulada, resiliência, defesa e determinação mesmo diante do cansaço.",
+    "sentido_invertido": "A página não tem seção de reverso; os sentidos negativos indicados são obstáculos, adversidade e calamidade.",
+    "correspondencias": [
+      "Árvore da Vida: Yesod (Árvore do Fogo)",
+      "Elemento: Ar em Fogo",
+      "Lua em Sagitário"
+    ]
+  },
+  {
+    "id": 73,
+    "nome_site": "Dez de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Dez_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "opressão",
+      "fardo",
+      "responsabilidade",
+      "sucesso",
+      "lucro",
+      "falsas aparências",
+      "perseverança",
+      "vontade"
+    ],
+    "resumo": "Representa a vontade enérgica e esclarecida do ser humano, capaz de manifestar com persistência e independência as experiências acumuladas no plano material. Também é a carta da opressão causada pelo peso das próprias conquistas e responsabilidades.",
+    "sentido_direto": "No plano mental traz inspiração sobre o domínio alcançável no plano psíquico; no anímico, elevados sentimentos familiares e fundação de uma linhagem sólida; no físico, prosperidade nos negócios e saúde equilibrada. Na cartomancia indica opressão, mas também fortuna e sucesso que geram pressão, além de falsas aparências, disfarce e possível prejuízo em processos. Os tarólogos destacam fardos e responsabilidades excessivas, muitas vezes autoimpostos, e força usada sem equilíbrio.",
+    "sentido_invertido": "A página não tem seção de reverso; os sentidos negativos indicados são contrariedades, dificuldades e intrigas.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth (Árvore do Fogo)",
+      "Elemento: Terra em Fogo",
+      "Regência: Terra",
+      "Saturno em Sagitário"
+    ]
+  },
+  {
+    "id": 74,
+    "nome_site": "Princesa de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Princesa_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "mensageiro",
+      "notícias",
+      "jovem",
+      "entusiasmo",
+      "potencial",
+      "amigo fiel",
+      "novos projetos",
+      "espírito livre"
+    ],
+    "resumo": "Representa frutos e acabamentos, mensageiros, ajudantes e ofertas vindas de fora, além de potenciais que ainda não têm força para se concretizar. Associa-se ao filho mais novo, ao jovem e às energias materiais que estimulam a ação.",
+    "sentido_direto": "No plano mental indica ideias maduras e planejamentos com boas chances; no anímico, uma união próxima que prepara sua manifestação; no físico, atividade iminente, recuperação da saúde e projetos passando à execução. Na cartomancia pode indicar casamento, amante, filho fiel ou amigo favorável, enviado, comunicação ou aviso. Os tarólogos a veem como espírito jovem, entusiasmado e otimista, portador de boas notícias e pronto para iniciar projetos.",
+    "sentido_invertido": "A página não tem seção de reverso; os aspectos negativos indicam atrasos e confusão em projetos recentes, oposição dos pais, ruína por empreendimentos infrutíferos, escolhas equivocadas e mau uso das habilidades.",
+    "correspondencias": [
+      "Árvore da Vida: Malkuth (Árvore do Fogo)",
+      "Elemento: Fogo",
+      "Signos: Áries, Sagitário e Leão"
+    ]
+  },
+  {
+    "id": 75,
+    "nome_site": "Cavaleiro de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Cavaleiro_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "ação",
+      "partida",
+      "viagem",
+      "mudança",
+      "vitalidade",
+      "aventura",
+      "impulsividade",
+      "entusiasmo"
+    ],
+    "resumo": "Representa a energia unificadora e o poder de agir, com vitalidade e atividade. Sinaliza acontecimentos imediatos e transformadores e se associa a cargos executivos, ao filho mais velho e ao namorado.",
+    "sentido_direto": "No plano mental indica atividade inteligente e intuitiva aplicada a assuntos práticos; no anímico, amizades, afeto e associações protetoras; no físico, realização harmoniosa, sucesso nos negócios e renovação da saúde. Na cartomancia significa partida, viagem, mudança de residência, ousadia, mudança súbita ou rompimento, com o conselho de agir e trabalhar, pois o futuro é um campo a cultivar. Os tarólogos o descrevem como forte, rápido, generoso e impulsivo, gosto pela aventura e ideias postas em prática.",
+    "sentido_invertido": "Atrasos e resistência; risco de traição. Pollack acrescenta que invertido sugere confusão, planos interrompidos, colapso ou desarmonia.",
+    "correspondencias": [
+      "Árvore da Vida: Tiferet (Árvore do Fogo)",
+      "Signo: entre Câncer e Leão (21 de Câncer a 20 de Leão, segundo Crowley)",
+      "Elemento (Crowley): Fogo do Ar"
+    ]
+  },
+  {
+    "id": 76,
+    "nome_site": "Rainha de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rainha_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "princípio feminino",
+      "maternidade",
+      "proteção",
+      "confiança",
+      "carisma",
+      "receptividade",
+      "sabedoria",
+      "mulher influente"
+    ],
+    "resumo": "Representa o princípio feminino e maternal: fertilidade, atração e proteção, receptividade, temperança e sabedoria. Abrange os papéis de mãe, esposa e amante.",
+    "sentido_direto": "No plano mental indica confiança total nos próprios empreendimentos; no anímico, proteção contra discórdias e confiança renovada; no físico, forte energia interior e preservação nos negócios e na saúde. Na cartomancia representa uma mulher influente, apaixonada ou virtuosa e dedicada, cuja proteção pode decidir o futuro do consulente, mas também pode apontar uma mulher falsa ou ciumenta. Os tarólogos a descrevem como calorosa, autoconfiante, carismática, generosa e líder, capaz de inspirar a criatividade alheia.",
+    "sentido_invertido": "A página não tem seção de reverso; os aspectos negativos indicados são desânimo, confusão, vulgaridade e dificuldade de superar obstáculos.",
+    "correspondencias": [
+      "Árvore da Vida: Binah (Árvore do Fogo)",
+      "Signo: entre Peixes e Áries",
+      "Elemento (Crowley): Água de Fogo"
+    ]
+  },
+  {
+    "id": 77,
+    "nome_site": "Rei de Bastões",
+    "url": "https://wiki.deldebbio.com.br/index.php/Rei_de_Bast%C3%B5es",
+    "palavras_chave": [
+      "sucesso material",
+      "liderança",
+      "ousadia",
+      "generosidade",
+      "decisão",
+      "espírito empreendedor",
+      "amigo fiel",
+      "protetor"
+    ],
+    "resumo": "Representa o sucesso material alcançado com trabalho preciso, equilibrado e firme. É o espírito conquistador e empreendedor, líder decidido e generoso.",
+    "sentido_direto": "No plano mental traz confiança no próprio julgamento e capacidade de decisão; no anímico, espírito conquistador e empreendedor; no físico, ousadia nos negócios, excelente saúde e caráter mutável porém generoso. Na cartomancia indica um homem honesto e severo, amigo fiel ou protetor poderoso, símbolo de poder conquistado pelo mérito, às vezes com atrasos ou rivalidade. Os tarólogos o descrevem como líder carismático, impetuoso e criativo, voltado a metas de longo prazo, por vezes intolerante.",
+    "sentido_invertido": "A página não tem seção de reverso; os aspectos negativos indicados são uso inadequado da energia em assuntos materiais e excessos ligados ao prazer, como embriaguez e libertinagem.",
+    "correspondencias": [
+      "Árvore da Vida: Hochma (Árvore do Fogo)",
+      "Elemento: Fogo",
+      "Signo: entre Escorpião e Sagitário (21 de Escorpião a 20 de Sagitário, segundo Crowley)"
+    ]
+  }
+]

@@ -1,6 +1,9 @@
 <html>
 
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="theme-color" content="#000000">
 	<title>Card Play</title>
 
 	<style>
@@ -13,14 +16,330 @@
 			overflow: hidden;
 		}
 
+		html,
+		body {
+			background: #000000;
+			overscroll-behavior: none;
+			-webkit-tap-highlight-color: transparent;
+			-webkit-user-select: none;
+			user-select: none;
+		}
+
+		/* O canvas trata os toques sozinho: sem rolagem nem zoom ao arrastar cartas */
+		#pixi-canvas {
+			display: block;
+			touch-action: none;
+		}
+
 		#pixi-content {
 			background: #000000;
 			width: 100%;
 			height: 100%;
 		}
 		@font-face {
-			font-family: 'Cinzel Decorative';
-			src: url('fonts/CinzelDecorative-Regular.ttf');
+			font-family: 'Cinzel';
+			src: url('fonts/Cinzel.ttf');
+			font-weight: 400 900;
+		}
+
+		/* Barra de tiragens no topo */
+		#toolbar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 12px;
+			padding: 14px 72px 10px;
+			pointer-events: none;
+		}
+
+		.btn {
+			pointer-events: auto;
+			font-family: 'Cinzel', Georgia, serif;
+			font-weight: 700;
+			font-size: 12px;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+			color: #e9dcff;
+			background: linear-gradient(#170b27, #0b0612);
+			border: 1px solid #7a3fc0;
+			border-radius: 6px;
+			padding: 9px 14px;
+			box-shadow: 0 0 10px rgba(155, 93, 229, 0.25), inset 0 0 0 3px #0b0612, inset 0 0 0 4px rgba(122, 63, 192, 0.45);
+			cursor: pointer;
+			transition: box-shadow 0.2s, color 0.2s, opacity 0.2s;
+		}
+
+		.btn::before,
+		.btn::after {
+			content: '◆';
+			font-size: 8px;
+			color: #b98cff;
+			vertical-align: 2px;
+		}
+
+		.btn::before { margin-right: 8px; }
+		.btn::after { margin-left: 8px; }
+
+		.btn:hover:not(:disabled) {
+			color: #ffffff;
+			box-shadow: 0 0 18px rgba(185, 140, 255, 0.55), inset 0 0 0 3px #0b0612, inset 0 0 0 4px rgba(185, 140, 255, 0.7);
+		}
+
+		.btn:disabled {
+			opacity: 0.4;
+			cursor: default;
+		}
+
+		/* Botão de reset, sozinho no canto */
+		#reset {
+			position: fixed;
+			top: 12px;
+			right: 16px;
+			width: 40px;
+			height: 40px;
+			padding: 0;
+			display: grid;
+			place-items: center;
+			border-radius: 50%;
+		}
+
+		#reset::before,
+		#reset::after { content: none; }
+
+		#reset svg {
+			width: 20px;
+			height: 20px;
+			transition: transform 0.4s;
+		}
+
+		#reset:hover:not(:disabled) svg { transform: rotate(-180deg); }
+
+		/* Drawer com o significado da carta */
+		#drawer-backdrop {
+			position: fixed;
+			inset: 0;
+			background: rgba(0, 0, 0, 0.6);
+			opacity: 0;
+			pointer-events: none;
+			transition: opacity 0.3s;
+			z-index: 10;
+		}
+
+		#drawer-backdrop.open {
+			opacity: 1;
+			pointer-events: auto;
+		}
+
+		#drawer {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			width: min(440px, 100vw);
+			box-sizing: border-box;
+			overflow-y: auto;
+			overscroll-behavior: contain;
+			padding: 28px 28px max(28px, env(safe-area-inset-bottom));
+			background: linear-gradient(#120a1f, #0b0612 40%);
+			border-left: 1px solid #7a3fc0;
+			box-shadow: -10px 0 40px rgba(155, 93, 229, 0.25), inset 1px 0 0 rgba(185, 140, 255, 0.15);
+			color: #e6dcf5;
+			transform: translateX(105%);
+			transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+			z-index: 11;
+			-webkit-user-select: text;
+			user-select: text;
+		}
+
+		#drawer.open { transform: none; }
+
+		#drawer-close {
+			position: absolute;
+			top: 14px;
+			right: 14px;
+			width: 36px;
+			height: 36px;
+			padding: 0;
+			border-radius: 50%;
+			font-size: 18px;
+			letter-spacing: 0;
+			line-height: 1;
+		}
+
+		#drawer-close::before,
+		#drawer-close::after { content: none; }
+
+		.drawer-head {
+			display: flex;
+			gap: 18px;
+			align-items: center;
+			margin: 4px 36px 18px 0;
+		}
+
+		#drawer-image {
+			width: 96px;
+			flex-shrink: 0;
+			border-radius: 6px;
+			border: 2px solid #9b5de5;
+			box-shadow: 0 0 18px rgba(155, 93, 229, 0.45);
+		}
+
+		#drawer-subtitle {
+			margin: 0 0 6px;
+			font: 700 11px 'Cinzel', Georgia, serif;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			color: #b98cff;
+		}
+
+		#drawer-title {
+			margin: 0;
+			font: 700 24px/1.2 'Cinzel', Georgia, serif;
+			color: #f3eaff;
+		}
+
+		#drawer-keywords {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 6px;
+			margin: 0 0 8px;
+			padding: 0;
+			list-style: none;
+		}
+
+		#drawer-keywords li {
+			font: 600 12px Georgia, serif;
+			padding: 4px 10px;
+			border: 1px solid #5b2a86;
+			border-radius: 999px;
+			background: #170b27;
+			color: #d9c2ff;
+		}
+
+		#drawer-body section { margin-top: 20px; }
+
+		#drawer-body h3 {
+			margin: 0 0 8px;
+			font: 700 12px 'Cinzel', Georgia, serif;
+			letter-spacing: 2.5px;
+			text-transform: uppercase;
+			color: #b98cff;
+		}
+
+		#drawer-body h3::before {
+			content: '◆';
+			font-size: 8px;
+			margin-right: 8px;
+			vertical-align: 2px;
+		}
+
+		/* Texto corrido em serifa comum: Cinzel só em títulos, para leitura confortável */
+		#drawer-body p,
+		#drawer-body li {
+			font: 16px/1.6 Georgia, 'Times New Roman', serif;
+			color: #e6dcf5;
+		}
+
+		#drawer-body p { margin: 0; }
+		#drawer-body ul { margin: 0; padding-left: 20px; }
+
+		#drawer-source {
+			display: inline-block;
+			margin-top: 26px;
+			font: 13px Georgia, serif;
+			color: #b98cff;
+		}
+
+		#drawer-source[hidden] { display: none; }
+
+		/* Celular: botões em grade 2x2 compacta, reset no canto */
+		@media (max-width: 639px) {
+			#toolbar {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-auto-rows: 1fr;
+				gap: 6px;
+				padding: max(8px, env(safe-area-inset-top)) 56px 6px 10px;
+			}
+
+			.btn {
+				font-size: 10px;
+				letter-spacing: 1px;
+				padding: 8px 6px;
+				line-height: 1.25;
+			}
+
+			.btn::before,
+			.btn::after { content: none; }
+
+			/* Drawer vira uma gaveta que sobe de baixo */
+			#drawer {
+				top: auto;
+				left: 0;
+				width: 100vw;
+				max-height: 82vh;
+				padding: 22px 18px max(22px, env(safe-area-inset-bottom));
+				border-left: none;
+				border-top: 1px solid #7a3fc0;
+				border-radius: 18px 18px 0 0;
+				box-shadow: 0 -10px 40px rgba(155, 93, 229, 0.25);
+				transform: translateY(105%);
+			}
+
+			#drawer::before {
+				content: '';
+				position: absolute;
+				top: 8px;
+				left: 50%;
+				width: 40px;
+				height: 4px;
+				margin-left: -20px;
+				border-radius: 2px;
+				background: #5b2a86;
+			}
+
+			#drawer-image { width: 72px; }
+			#drawer-title { font-size: 20px; }
+
+			#reset {
+				top: max(8px, env(safe-area-inset-top));
+				right: 10px;
+				width: 38px;
+				height: 38px;
+			}
+		}
+
+		/* Celular deitado: pouca altura, uma linha só */
+		@media (max-height: 480px) and (orientation: landscape) {
+			#toolbar {
+				display: flex;
+				flex-wrap: nowrap;
+				gap: 6px;
+				padding: 6px 56px 4px 10px;
+			}
+
+			.btn {
+				font-size: 10px;
+				letter-spacing: 1px;
+				padding: 6px 10px;
+				white-space: nowrap;
+			}
+
+			/* Rótulos curtos para caber numa linha */
+			.btn .opt { display: none; }
+
+			.btn::before,
+			.btn::after { content: none; }
+
+			#reset {
+				top: 6px;
+				width: 32px;
+				height: 32px;
+			}
 		}
 	</style>
 
@@ -28,7 +347,33 @@
 
 <body>
 	<noscript>Please enable JavaScript in your web browser to view this page.</noscript>
-	<div id="pixi-content"><canvas id="pixi-canvas" /></div>
+	<div id="pixi-content"><canvas id="pixi-canvas"></canvas></div>
+	<div id="toolbar">
+		<button class="btn" data-spread="oneCard" disabled>1 Carta<span class="opt"> Aleatória</span></button>
+		<button class="btn" data-spread="threeRandom" disabled>3 Cartas<span class="opt"> Aleatórias</span></button>
+		<button class="btn" data-spread="threeCards" disabled>Passado · Presente · Futuro</button>
+		<button class="btn" data-spread="majorMinor" disabled><span class="opt">Arcano </span>Maior e Menor</button>
+	</div>
+	<div id="drawer-backdrop"></div>
+	<aside id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true">
+		<button class="btn" id="drawer-close" aria-label="Fechar">✕</button>
+		<div class="drawer-head">
+			<img id="drawer-image" alt="">
+			<div>
+				<p id="drawer-subtitle"></p>
+				<h2 id="drawer-title"></h2>
+			</div>
+		</div>
+		<ul id="drawer-keywords"></ul>
+		<div id="drawer-body"></div>
+		<a id="drawer-source" target="_blank" rel="noopener noreferrer">Fonte: Wiki Del Debbio ↗</a>
+	</aside>
+	<button class="btn" id="reset" title="Recolher as cartas e embaralhar" aria-label="Resetar" disabled>
+		<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M3 12a9 9 0 1 0 3-6.7" />
+			<polyline points="3 3 3 9 9 9" />
+		</svg>
+	</button>
 </body>
 
 </html>
